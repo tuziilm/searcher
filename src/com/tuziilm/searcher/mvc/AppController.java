@@ -1,8 +1,6 @@
 package com.tuziilm.searcher.mvc;
 
-import com.google.common.io.Files;
 import com.tuziilm.searcher.common.OperationLogType;
-import com.tuziilm.searcher.common.Paginator;
 import com.tuziilm.searcher.common.Query.NameQuery;
 import com.tuziilm.searcher.common.RemarkForm;
 import com.tuziilm.searcher.common.UpLoads;
@@ -27,8 +25,6 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.File;
-import java.io.IOException;
 import java.util.Arrays;
 
 /**
