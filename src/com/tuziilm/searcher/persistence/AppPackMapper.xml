@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tuziilm.searcher.persistence.AppPackMapper" >
+    <resultMap id="BaseResultMap" type="com.tuziilm.searcher.domain.AppPack" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="name" property="name" jdbcType="VARCHAR" />
+        <result column="pack_type" property="packType" jdbcType="INTEGER" />
+        <result column="app_ids" property="appIds" jdbcType="VARCHAR" />
+        <result column="remark" property="remark" jdbcType="VARCHAR" />
+        <result column="gmt_create" property="gmtCreate" jdbcType="TIMESTAMP" />
+        <result column="gmt_modified" property="gmtModified" jdbcType="TIMESTAMP" />
+    </resultMap>
+    <delete id="deleteById">
+        delete from app_pack where id=#{id}
+    </delete>
+    <delete id="deleteByIds">
+        delete from app_pack where id in
+        <foreach collection="array" item="ids"  open="(" separator="," close=")">
+            #{ids}
+        </foreach>
+    </delete>
+
+    <insert id="insert" parameterType="com.tuziilm.searcher.domain.AppPack" >
+        <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        insert into app_pack (name, pack_type, app_ids, remark,
+        gmt_create, gmt_modified)
+        values (#{name,jdbcType=VARCHAR},#{packType,jdbcType=INTEGER},
+        #{appIds,jdbcType=VARCHAR}, #{remark,jdbcType=VARCHAR}, now(), now())
+    </insert>
+
+    <sql id="Base_Column_List" >
+        id, name, pack_type, app_ids, remark, gmt_create, gmt_modified
+    </sql>
+
+    <select id="selectAll" resultMap="BaseResultMap" >
+        select
+        <include refid="Base_Column_List" />
+        from app_pack
+    </select>
+
+    <select id="select" resultMap="BaseResultMap" parameterType="com.tuziilm.searcher.common.Paginator" >
+        select
+        <include refid="Base_Column_List" />
+        from app_pack
+        <where>
+            <if test="query.name != null">
+                name like #{query.name}
+            </if>
+        </where>
+        order by id desc  limit #{start},#{sqlSize}
+    </select>
+
+    <select id="selectById" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select
+        <include refid="Base_Column_List" />
+        from app_pack where id=#{id}
+    </select>
+
+    <update id="updateByIdSelective" parameterType="com.tuziilm.searcher.domain.AppPack" >
+        update app_pack
+        <set >
+            <if test="name != null" >
+                name = #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="packType != null" >
+                pack_type = #{packType,jdbcType=INTEGER},
+            </if>
+            <if test="appIds != null" >
+                app_ids = #{appIds,jdbcType=VARCHAR},
+            </if>
+            <if test="remark != null" >
+                remark = #{remark,jdbcType=VARCHAR}
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+</mapper>

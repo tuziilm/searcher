@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tuziilm.searcher.persistence.AppMapper" >
+    <resultMap id="BaseResultMap" type="com.tuziilm.searcher.domain.App" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="name" property="name" jdbcType="VARCHAR" />
+        <result column="remark" property="remark" jdbcType="VARCHAR" />
+        <result column="gmt_create" property="gmtCreate" jdbcType="TIMESTAMP" />
+        <result column="gmt_modified" property="gmtModified" jdbcType="TIMESTAMP" />
+    </resultMap>
+    <delete id="deleteById">
+        update app set status = -1 where id=#{id}
+    </delete>
+    <delete id="deleteByIds">
+        update app set status = -1 where id in
+        <foreach collection="array" item="ids"  open="(" separator="," close=")">
+            #{ids}
+        </foreach>
+    </delete>
+
+    <insert id="insert" parameterType="com.tuziilm.searcher.domain.App" >
+        <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        insert into app (name, link, img_path, img_file_name, status, type, remark, gmt_create, gmt_modified)
+        values (#{name,jdbcType=VARCHAR}, #{link,jdbcType=VARCHAR}, #{imgPath,jdbcType=VARCHAR},
+        #{imgFileName,jdbcType=VARCHAR}, #{status,jdbcType=INTEGER}, #{type,jdbcType=INTEGER}, #{remark,jdbcType=VARCHAR}, now(), now())
+    </insert>
+
+    <sql id="Base_Column_List" >
+        id, name, link, img_path, img_file_name, status, type, remark, gmt_create, gmt_modified
+    </sql>
+
+    <select id="selectAll" resultMap="BaseResultMap" >
+        select
+        <include refid="Base_Column_List" />
+        from app where status != -1
+    </select>
+    <sql id="select_count_where_sql">
+        <where>
+            status != -1
+            <if test="query.name != null">
+                and name like #{query.name}
+            </if>
+        </where>
+    </sql>
+    <select id="select" resultMap="BaseResultMap" parameterType="com.tuziilm.searcher.common.Paginator" >
+        select
+        <include refid="Base_Column_List" />
+        from app
+        <include refid="select_count_where_sql"/>
+        order by status asc,id desc limit #{start},#{sqlSize}
+    </select>
+    <select id="count" resultType="java.lang.Integer" parameterType="com.tuziilm.searcher.common.Paginator" >
+        select count(*)
+        from app
+        <include refid="select_count_where_sql"/>
+    </select>
+    <select id="countAll" resultType="java.lang.Integer" >
+        select count(*)
+        from app
+    </select>
+    <select id="selectById" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+        select
+        <include refid="Base_Column_List" />
+        from app where id=#{id}
+    </select>
+
+    <update id="updateByIdSelective" parameterType="com.tuziilm.searcher.domain.App" >
+        update app
+        <set >
+            <if test="name != null" >
+                name = #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="link != null" >
+                link = #{link,jdbcType=VARCHAR},
+            </if>
+            <if test="imgPath != null" >
+                img_path = #{imgPath,jdbcType=VARCHAR},
+            </if>
+            <if test="imgFileName != null" >
+                img_file_name = #{imgFileName,jdbcType=VARCHAR},
+            </if>
+            <if test="type != null" >
+                type = #{type,jdbcType=VARCHAR},
+            </if>
+            <if test="status != null" >
+                status = #{status,jdbcType=INTEGER},
+            </if>
+            <if test="remark != null" >
+                remark = #{remark,jdbcType=VARCHAR}
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+</mapper>
