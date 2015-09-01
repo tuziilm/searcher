@@ -292,21 +292,7 @@ public class Base64Util {
 
 	public static void main(String[] args) {
 		//登陆
-//		String code = encode("{\"clientver\":\"3.3.4.0\",\"opcode\":\"1001\",\"opdata\":{\"pwd\":\"test\",\"user\":\"test\"},\"os\":\"win7\"}");
-		//套餐
-//		String code = encode("{\"clientver\":\"3.3.4.0\",\"opcode\":\"1020\",\"opdata\":{\"checkcode\":\"\",\"uid\":\"1\"},\"os\":\"win7\",\"token\":\"C5E544D59691A3CBF9349A2FA55D0D4A\",\"uid\":\"1\"}");
-		//单应用安装
-//		String code = encode("{\"clientver\":\"3.3.4.0\",\"opcode\":\"2011\",\"opdata\":{\"uid\":\"32\",\"androidid\":\"bbe123ad537dde21\",\"appid\":\"5\",\"bbv\":\"\",\"bv\":\"4721.000000\",\"cpunum\":\"9fc5e07a\",\"deviceos\":\"4.4.4\",\"disk\":\"5021.000000\",\"flag\":0,\"iccid\":\"\",\"imei\":\"866615020422273\",\"imsi\":\"460110418522962\",\"installflag\":\"1\",\"itime\":\"2015-06-24 17:00:16\",\"itv\":\"00-50-56-c0-00-08\",\"mac\":\"3c:91:57:ad:5a:49\",\"mno\":\"Coolpad SK1-01\",\"msisdn\":\"\",\"only\":\"866615020422273\",\"ptype\":\"YuLong\",\"reason\":\"\",\"sno\":\"usb#vid_1ebf&pid_702a&mi_01#6&235fd6af&0&0001\",\"userid\":\"1\",\"ver\":\"3.3.4.0\",\"winver\":\"win7\"},\"os\":\"win7\",\"token\": \"DC89DDD9E89B5BA87CA151139862C14B\",\"uid\":\"1\"}");
-		//设备安装
-//		String code = encode("{\"clientver\":\"3.3.4.0\",\"opcode\":\"2020\",\"opdata\":{\"deviceid\":\"866615020422273\",\"devicename\":\"YuLong_Coolpad SK1-01\",\"devicetype\":\"0\",\"scount\":\"1\",\"starttime\":\"2015-06-24 17:02:14\",\"tcount\":\"1\",\"tickcount\":\"144\"},\"os\":\"win7\",\"token\":\"0BF7BB60A2F0ABA64050F6C132643ADD\",\"uid\":\"1\"}");
-		//应用激活
-//		String code = encode("{\"clientver\":\"3.3.4.0\",\"opcode\":\"1011\",\"opdata\":{\"uid\":\"32\",\"appid\":\"5\",\"imei\":\"866615020422273\",\"imsi\":\"460110418522962\",\"installflag\":\"1\",\"itime\":\"2015-06-24 17:00:16\",\"mac\":\"3c:91:57:ad:5a:49\",\"mno\":\"Coolpad SK1-01\",\"ptype\":\"YuLong\",\"cp\":\"3\",\"sno\":\"usb#vid_1ebf&pid_702a&mi_01#6&235fd6af&0&0001\",\"userid\":\"1\",\"ver\":\"3.3.4.0\",\"winver\":\"win7\"},\"os\":\"win7\",\"token\": \"362BC643A26BAD57DA09CAF3BC8A25FF\",\"uid\":\"1\"}");
-		//检查用户账号是否冻结
-//		String code = encode("{\"clientver\":\"3.3.4.0\",\"opcode\":\"1003\",\"os\":\"win7\",\"token\":\"2B0AE38890D02B82D23ABC44EE9751B0\",\"uid\":\"1\"}");
-		//问题反馈
-//		String code = encode("{\"clientver\":\"3.3.4.0\",\"opcode\":\"1060\",\"opdata\":{\"contents\":\"test辅导书定积分\"},\"os\":\"win7\",\"token\":\"D6A763B0B3E963647535C6F047562F23\",\"uid\":\"1\"}");
-		//aPK激活
-		String code = encode("{\"uid\":\"37\",\"sn\":{\"idfv\":\"\",\"openudid\":\"\",\"mac\":\"90:4e:2b:ac:7c:9c\",\"udid\":\"\",\"idfa\":\"\"},\"devicetype\":\"0\",\"token\":\"\",\"deviceos\":\"4.2.2\",\"opdata\":{\"sno\":\"0123456789ABCDEF\",\"cp\":\"3\",\"mno\":\"HUAWEI Y511-T00\",\"itime\":\"2015-09-04 04:57:27\",\"imei\":\"861800002065416\",\"androidId\":\"f260df0cfa12ea7f\",\"appid\":\"18\",\"mac\":\"90:4e:2b:ac:7c:9c\",\"pno\":\"4.2.2\",\"ptype\":\"HUAWEI\"},\"opcode\":\"1001\"}");
+		String code = encode("{\"opcode\":\"1001\",\"opdata\":{\"pwd\":\"test\",\"user\":\"test\"}}");
 // 		String code = "eyJjbGllbnR2ZXIiOiIzLjMuNC4wIiwib3Bjb2RlIjoiMTAwMSIsIm9wZGF0YSI6eyJwd2QiOiJlMTBhZGMzOTQ5YmE1OWFiYmU1NmUwNTdmMjBmODgzZSIsInVzZXIiOiIzNjE5MzczNzhAcXEuY29tIn0sIm9zIjoid2luNyJ9Cg==";
 //		System.out.println(decode(decodeByKey(code)));
 //		System.out.println(code);

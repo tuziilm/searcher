@@ -21,7 +21,7 @@
 				<div class="control-group required-field">
 					<label class="control-label">类型:</label>
 					<div class="controls">
-						<select id="type_sel" name="type" class="input-small">
+						<select id="type_sel" name="type" class="input-small" onchange="javascript:changeType();">
 							<option value="1">搜索引擎</option>
 							<option value="2">有图App</option>
 							<option value="3">无图App</option>
@@ -75,23 +75,20 @@
 <script>
 	function changeType(){
 		var type = $("#type_sel").val();
-		switch(type){
-			case 1:{
-				document.getElementById('_apps1').style.display = "";
-				document.getElementById('_apps2').style.display = "none";
-				document.getElementById('_apps3').style.display = "none";
-			}
-			case 2:{
-				document.getElementById('_apps1').style.display = "none";
-				document.getElementById('_apps2').style.display = "";
-				document.getElementById('_apps3').style.display = "none";
-			}
-			case 3:{
-				document.getElementById('_apps1').style.display = "none";
-				document.getElementById('_apps2').style.display = "none";
-				document.getElementById('_apps3').style.display = "";
-			}
+		if(type==1){
+			document.getElementById('_apps1').style.display = "block";
+			document.getElementById('_apps2').style.display = "none";
+			document.getElementById('_apps3').style.display = "none";
+		}else if(type==2){
+			document.getElementById('_apps1').style.display = "none";
+			document.getElementById('_apps2').style.display = "block";
+			document.getElementById('_apps3').style.display = "none";
+		}else{
+			document.getElementById('_apps1').style.display = "none";
+			document.getElementById('_apps2').style.display = "none";
+			document.getElementById('_apps3').style.display = "block";
 		}
+		showSelected("_apps");
 	}
 	function searchSelected(kwElemId, resultDivId){
 		var type = $("#type_sel").val();
@@ -123,4 +120,5 @@
 		});
 	}
 	showSelected("_apps");
+	changeType();
 </script>

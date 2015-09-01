@@ -3,6 +3,7 @@ package com.tuziilm.searcher.domain;
 import com.google.common.base.Joiner;
 import com.google.common.base.Splitter;
 import com.google.common.base.Strings;
+import org.codehaus.jackson.annotate.JsonIgnore;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -59,6 +60,7 @@ public class AppPack extends RemarkId{
             }
         }
     }
+    @JsonIgnore
     public void setAppIdsObject(Set<Integer> appIds) {
         this.appIds = appIds;
     }

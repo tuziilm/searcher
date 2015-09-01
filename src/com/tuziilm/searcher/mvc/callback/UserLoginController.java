@@ -28,7 +28,7 @@ public class UserLoginController extends AbstractCallbackController {
     @Resource
     private SysUserService sysUserService;
 
-    @RequestMapping(value = "/index/softlogin/", method = RequestMethod.POST)
+    @RequestMapping(value = "/index/softlogin", method = RequestMethod.POST)
     public void softLogin(HttpSession session,HttpServletRequest request, HttpServletResponse response) throws Exception {
         BaseForm form = (BaseForm)request.getAttribute("baseForm");
         if (form.getValid()) {

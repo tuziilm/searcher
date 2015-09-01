@@ -7,8 +7,9 @@ package com.tuziilm.searcher.common;
  *
  */
 public enum LogModule {
-    USER_LOGIN("用户登录", "index/softlogin/"),
-    USER_LOGOUT("用户退出", "index/softlogout");
+    USER_LOGIN("用户登录", "index/softlogin"),
+    USER_LOGOUT("用户退出", "index/softlogout"),
+    APP_CONFIG("分类列表", "index/appconfig");
 
 	private String title;
     private String link;

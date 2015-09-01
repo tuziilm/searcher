@@ -35,7 +35,7 @@
 								</td>
 								<td>${fn:escapeXml(data.id)}</td>
 								<td>${fn:escapeXml(data.name)}</td>
-								<td>${data.type==1?"搜索引擎":(data.type==2?"有图APP":"无图APP")}</td>
+								<td>${data.packType==1?"搜索引擎":(data.packType==2?"有图APP":"无图APP")}</td>
 								<td class="operation operand2">
 									<a class="btn btn-small btn-info" onclick="javascript:showDetail(${it.count},this);return false;"><i class="icon-plus-sign icon-white"></i>详情</a>
 								</td>

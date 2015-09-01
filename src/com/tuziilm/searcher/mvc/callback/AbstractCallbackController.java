@@ -43,6 +43,15 @@ public abstract class AbstractCallbackController implements JsonSupport {
 		}
 	}
 	/**
+	 * 用户未登陆
+	 * */
+	protected void userNotLogin(HttpServletResponse response){
+		try {
+			response.getWriter().write(JsonSupport.USER_NOT_LOGIN);
+		} catch (IOException e1) {
+		}
+	}
+	/**
 	 * 参数错误
 	 * */
 	protected void errorParam(HttpServletResponse response){

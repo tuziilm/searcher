@@ -26,8 +26,8 @@ import java.util.Set;
 
 public class SecurityInterceptor extends HandlerInterceptorAdapter {
 	protected final Logger log= LoggerFactory.getLogger(getClass());
-	private final static Set<String> openApis= Sets.newHashSet("/index/softlogin/", "/login", "/navigation", "/findPasswd", "/find_passwd", "/register_page", "/register", "/web_logout", "/apk/activate");
-	private final static Set<String> softApis = Sets.newHashSet("/index/softlogout", "/version/update", "/index/appcfg", "/AndroidPhone/queryDriver", "/AndroidPhone/commitPhoneInfo", "/device/sendOnlyIdTask", "/install/statistics", "/device/deviceStatistics", "/checkUserAccount/isFrozen", "/problem/feedback");
+	private final static Set<String> openApis= Sets.newHashSet("/login", "/index/appconfig");
+	private final static Set<String> softApis = Sets.newHashSet();
 	@Override
 	public boolean preHandle(HttpServletRequest request,
 			HttpServletResponse response, Object handler) throws Exception {
@@ -38,7 +38,7 @@ public class SecurityInterceptor extends HandlerInterceptorAdapter {
 			uri = uri.substring(contextPath.length());
 		}
 		if (uri.startsWith("/callback") || uri.startsWith("/get/") || uri.startsWith("/static") || uri.startsWith("/public") || uri.startsWith("/notice/detail") || uri.startsWith("/my_zone")|| openApis.contains(uri)) {//static resource or login page or callback interface, not authorize
-			if(uri.startsWith("/index/softlogin/")||uri.startsWith("/apk/activate")) {
+			if(uri.startsWith("/index/appconfig")) {
 				loadForm(request);
 			}
 			return true;

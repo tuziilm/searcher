@@ -4,6 +4,7 @@ import com.tuziilm.searcher.common.SqlFunc;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
+import org.codehaus.jackson.annotate.JsonIgnore;
 
 import java.util.Date;
 
@@ -14,7 +15,7 @@ public abstract class Id {
     protected Date gmtCreate;
     /** ÐÞ¸ÄÊ±¼ä*/
     protected Date gmtModified;
-
+	@JsonIgnore
     public SqlFunc getFn(){
         return SqlFunc.get();
     }
@@ -26,7 +27,7 @@ public abstract class Id {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-
+	@JsonIgnore
 	public Date getGmtCreate() {
 		return gmtCreate;
 	}
@@ -34,7 +35,7 @@ public abstract class Id {
 	public void setGmtCreate(Date gmtCreate) {
 		this.gmtCreate = gmtCreate;
 	}
-
+	@JsonIgnore
 	public Date getGmtModified() {
 		return gmtModified;
 	}
