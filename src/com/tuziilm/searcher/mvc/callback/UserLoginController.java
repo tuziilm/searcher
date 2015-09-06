@@ -21,6 +21,7 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import javax.validation.Valid;
 
 @Controller("callbackSoftLoginController")
 public class UserLoginController extends AbstractCallbackController {
@@ -29,12 +30,11 @@ public class UserLoginController extends AbstractCallbackController {
     private SysUserService sysUserService;
 
     @RequestMapping(value = "/index/softlogin", method = RequestMethod.POST)
-    public void softLogin(HttpSession session,HttpServletRequest request, HttpServletResponse response) throws Exception {
-        BaseForm form = (BaseForm)request.getAttribute("baseForm");
+    public void softLogin(@Valid BaseForm form,HttpSession session,HttpServletRequest request, HttpServletResponse response) throws Exception {
+        form.reload(form);
         if (form.getValid()) {
-            String result = form.getParseD();//先反替换，再解码
-            LogStatistics.log(LogModule.USER_LOGIN, "index/softlogin", result);
-            JsonNode node = mapper.readTree(result);
+            LogStatistics.log(LogModule.USER_LOGIN, "index/softlogin", false, request, form.toParams());
+            JsonNode node = mapper.readTree(form.getParseD());
             JsonNode jo = node.get("opdata");
             String username = jo.get("user").asText();
             String pwd = jo.get("pwd").asText();
@@ -51,7 +51,7 @@ public class UserLoginController extends AbstractCallbackController {
             }
             LoginContext.doLogin(sysUser, session);
             response.setContentType("text/json;charset=UTF-8");
-            JsonObject json = new JsonObject(3).add("opcode", 1001)
+            JsonObject json = new JsonObject(3).add("opcode", 1006)
                     .add("data", handlerData(LoginContext.get()))
                     .add("errorcode", 0);
             mapper.writeValue(response.getOutputStream(), json);

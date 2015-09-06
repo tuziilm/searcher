@@ -14,4 +14,6 @@ public interface JsonSupport {
 	final static String USER_NOT_LOGIN = "{{\"errorcode\":3}}";
 	final static String ERROR_PWD = "{{\"result\":1}}";
 	final static String USER_NOT_EXIST = "{{\"result\":2}}";
+	final static String EMAIL_ALREADY_REGISTER = "{{\"result\":3}}";
+	final static String USER_ALREADY_REGISTER = "{{\"result\":4}}";
 }

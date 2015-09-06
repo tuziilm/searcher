@@ -15,9 +15,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import javax.validation.Valid;
 
 /**
- * 1002: PC端用户退出
+ * 1008: 用户退出
  * Author: <a href="tuziilm@163.com">Tuziilm</a>
  * Date: 15-6-17
  * Time: 上午10:23
@@ -27,12 +28,11 @@ public class UserLogoutController extends AbstractCallbackController {
     private final Logger log = LoggerFactory.getLogger(getClass());
 
     @RequestMapping(value = "/index/softlogout", method = RequestMethod.POST)
-    public void softLogin(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        BaseForm form = (BaseForm)request.getAttribute("baseForm");
-        String result = form.getParseD();//先反替换，再解码
-        LogStatistics.log(LogModule.USER_LOGOUT, "index/softlogout", result);
-        JsonNode node = mapper.readTree(result);
-        if(node.get("token")==null) {
+    public void softLogin(@Valid BaseForm form,HttpServletRequest request, HttpServletResponse response) throws Exception {
+        form.reload(form);
+        LogStatistics.log(LogModule.USER_LOGOUT, "index/softlogout", false, request, form.toParams());
+        JsonNode node = mapper.readTree(form.getParseD());
+        if (node.get("token") == null) {
             errorParam(response);
             return;
         }
@@ -41,7 +41,7 @@ public class UserLogoutController extends AbstractCallbackController {
         session.invalidate();
         response.setContentType("text/json;charset=UTF-8");
         JsonObject data = new JsonObject(1).add("result", 0);
-        JsonObject json = new JsonObject(3).add("opcode",1002).add("errorcode",0).add("data", data);
+        JsonObject json = new JsonObject(3).add("opcode", 1008).add("errorcode", 0).add("data", data);
         mapper.writeValue(response.getOutputStream(), json);
     }
 }

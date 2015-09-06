@@ -292,13 +292,15 @@ public class Base64Util {
 
 	public static void main(String[] args) {
 		//µÇÂ½
-		String code = encode("{\"opcode\":\"1001\",\"opdata\":{\"pwd\":\"test\",\"user\":\"test\"}}");
+//		String code = encode("{\"opcode\":\"1001\",\"opdata\":{\"pwd\":\"test\",\"user\":\"test\"}}");
 // 		String code = "eyJjbGllbnR2ZXIiOiIzLjMuNC4wIiwib3Bjb2RlIjoiMTAwMSIsIm9wZGF0YSI6eyJwd2QiOiJlMTBhZGMzOTQ5YmE1OWFiYmU1NmUwNTdmMjBmODgzZSIsInVzZXIiOiIzNjE5MzczNzhAcXEuY29tIn0sIm9zIjoid2luNyJ9Cg==";
 //		System.out.println(decode(decodeByKey(code)));
 //		System.out.println(code);
 //		System.out.println(encodeByKey(code));
 //		System.out.println(decodeByKey(encodeByKey(code)));
-		System.out.println("d=" + encodeByKey(code) + "&c=" + SecurityUtils.Get32CodeModel(encodeByKey(code)));
+		String code1 = "Mw-5Jd25ndpONOoZB0uZoOlO7_Ke8EgHoTzAofK_nboSofgxJ_QOyb-WJ6IwoTqO3dIU3b-P1Q==";
+		System.out.println(decode(decodeByKey(code1)));
+//		System.out.println("d=" + encodeByKey(code) + "&c=" + SecurityUtils.Get32CodeModel(encodeByKey(code)));
 	}
 
 }

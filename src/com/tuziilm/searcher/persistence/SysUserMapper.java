@@ -8,6 +8,6 @@ import com.tuziilm.searcher.domain.SysUser;
  *
  */
 public interface SysUserMapper extends BaseMapper<SysUser>{
-
+	SysUser getByEmail(String email);
 	SysUser getByUsername(String username);
 }

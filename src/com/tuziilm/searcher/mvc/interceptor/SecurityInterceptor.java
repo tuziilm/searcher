@@ -38,9 +38,6 @@ public class SecurityInterceptor extends HandlerInterceptorAdapter {
 			uri = uri.substring(contextPath.length());
 		}
 		if (uri.startsWith("/callback") || uri.startsWith("/get/") || uri.startsWith("/static") || uri.startsWith("/public") || uri.startsWith("/notice/detail") || uri.startsWith("/my_zone")|| openApis.contains(uri)) {//static resource or login page or callback interface, not authorize
-			if(uri.startsWith("/index/appconfig")) {
-				loadForm(request);
-			}
 			return true;
 		}else if(softApis.contains(uri)) {
 			return checkApiUserIsLogin(request, response);

@@ -139,10 +139,10 @@ public class SecurityUtils {
         return m.equals(md5Encode(md5Encode(key)));
     }
 	public static void main(String[] args) throws NoSuchAlgorithmException {
-		String result = "Mw-T7dxx7fg6nEoONOoUyTBr2bGloOlO7_KT76gxoTqOBauwBbomovPlndti8RoSMw-TsdITs625ndpONOoOyb-Ws4QONOoZofimovPUoTqO36xr2womofg5s6IroTqOBaQUBp2DN0oZQT2d2aHbBD-02eQlNaH0g0LigToZ2TLOyb-Ws4QONOoZofiF";
-		System.out.println(result);
-		String paramC = Get32CodeModel(result);
-		System.out.println(paramC);
+//		String result = "Mw-T7dxx7fg6nEoONOoUyTBr2bGloOlO7_KT76gxoTqOBauwBbomovPlndti8RoSMw-TsdITs625ndpONOoOyb-Ws4QONOoZofimovPUoTqO36xr2womofg5s6IroTqOBaQUBp2DN0oZQT2d2aHbBD-02eQlNaH0g0LigToZ2TLOyb-Ws4QONOoZofiF";
+//		System.out.println(result);
+//		String paramC = Get32CodeModel(result);
+//		System.out.println(paramC);
 
 	}
 }

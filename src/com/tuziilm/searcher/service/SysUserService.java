@@ -19,7 +19,9 @@ public class SysUserService  extends SimpleCacheSupportService<SysUser> {
 		this.mapper = sysUserMapper;
 		this.sysUserMapper=sysUserMapper;
 	}
-
+	public SysUser getByEmail(String email) {
+		return sysUserMapper.getByEmail(email);
+	}
 	public SysUser getByUsername(String username) {
 		return sysUserMapper.getByUsername(username);
 	}

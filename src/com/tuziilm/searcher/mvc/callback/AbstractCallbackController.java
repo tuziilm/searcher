@@ -79,5 +79,23 @@ public abstract class AbstractCallbackController implements JsonSupport {
 		}
 	}
 
+	/**
+	 * 该邮箱已注册
+	 * */
+	protected void emailExist(HttpServletResponse response){
+		try {
+			response.getWriter().write(EMAIL_ALREADY_REGISTER);
+		} catch (IOException e1) {
+		}
+	}
+	/**
+	 * 该用户名已注册
+	 * */
+	protected void userExist(HttpServletResponse response){
+		try {
+			response.getWriter().write(USER_ALREADY_REGISTER);
+		} catch (IOException e1) {
+		}
+	}
 }
 
