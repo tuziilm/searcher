@@ -12,6 +12,8 @@ public enum LogModule {
     USER_REGISTER("用户注册", "index/register"),
     USER_FINDPASSWD("用户找回密码", "index/findpasswd"),
     USER_EDITPWD("用户修改密码", "index/editpwd"),
+    USER_DEFINED("添加用户自定义", "index/userDefined"),
+    USER_ISLOGIN("用户是否登陆", "index/isLogin"),
     APP_CONFIG("分类列表", "index/appconfig");
 
 	private String title;

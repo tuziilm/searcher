@@ -78,7 +78,10 @@ public class AppConfigController extends AbstractCallbackController{
                 userNotLogin(response);
                 return;
             } else {
-                appPackList = appPackService.getAllType4AppsCache();
+                AppPack appPack = appPackService.getType4ByUid(uid);
+                if(appPack!=null){
+                    appPackList.add(appPack);
+                }
             }
         }
         JsonObject json = new JsonObject(2).add("success", true).add("appPacks", getAppPack(appPackList));

@@ -138,6 +138,7 @@ public class AppPackController extends CRUDController<AppPack,AppPackService,App
             appPack.setName(name);
             appPack.setPackType(type);
             appPack.setAppIdsObject(appIds);
+            appPack.setUid(0);
         }
     }
 

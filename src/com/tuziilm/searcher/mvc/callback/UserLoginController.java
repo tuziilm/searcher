@@ -36,6 +36,14 @@ public class UserLoginController extends AbstractCallbackController {
             LogStatistics.log(LogModule.USER_LOGIN, "index/softlogin", false, request, form.toParams());
             JsonNode node = mapper.readTree(form.getParseD());
             JsonNode jo = node.get("opdata");
+            if (jo == null) {
+                missParam(response);
+                return;
+            }
+            if (jo.get("user") == null || jo.get("pwd") == null) {
+                missParam(response);
+                return;
+            }
             String username = jo.get("user").asText();
             String pwd = jo.get("pwd").asText();
             SysUser sysUser = sysUserService.getByUsername(username);

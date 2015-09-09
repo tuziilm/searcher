@@ -3,6 +3,7 @@ package com.tuziilm.searcher.mvc.callback;
 import com.tuziilm.searcher.common.JsonObject;
 import com.tuziilm.searcher.common.LogModule;
 import com.tuziilm.searcher.common.LogStatistics;
+import com.tuziilm.searcher.common.LoginContext;
 import com.tuziilm.searcher.domain.BaseForm;
 import com.tuziilm.searcher.mvc.listener.SessionListener;
 import org.codehaus.jackson.JsonNode;
@@ -32,12 +33,22 @@ public class UserLogoutController extends AbstractCallbackController {
         form.reload(form);
         LogStatistics.log(LogModule.USER_LOGOUT, "index/softlogout", false, request, form.toParams());
         JsonNode node = mapper.readTree(form.getParseD());
-        if (node.get("token") == null) {
-            errorParam(response);
+        JsonNode jo = node.get("opdata");
+        if (jo == null) {
+            missParam(response);
             return;
         }
-        String token = node.get("token").asText();
+        if (jo.get("uid") == null || jo.get("token") == null) {
+            missParam(response);
+            return;
+        }
+        Integer uid = Integer.parseInt(jo.get("uid").asText());
+        String token = jo.get("token").asText();
         HttpSession session = SessionListener.getSession(token);
+        if (!LoginContext.checkLogin(session) || uid != LoginContext.getUid()) {
+            userNotLogin(response);
+            return;
+        }
         session.invalidate();
         response.setContentType("text/json;charset=UTF-8");
         JsonObject data = new JsonObject(1).add("result", 0);

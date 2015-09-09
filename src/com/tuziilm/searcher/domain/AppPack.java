@@ -18,6 +18,7 @@ public class AppPack extends RemarkId{
     private String name;
     private Integer packType;
     private Set<Integer> appIds;
+    private Integer uid;
 
     public String getName() {
         return name;
@@ -63,5 +64,13 @@ public class AppPack extends RemarkId{
     @JsonIgnore
     public void setAppIdsObject(Set<Integer> appIds) {
         this.appIds = appIds;
+    }
+
+    public Integer getUid() {
+        return uid;
+    }
+
+    public void setUid(Integer uid) {
+        this.uid = uid;
     }
 }

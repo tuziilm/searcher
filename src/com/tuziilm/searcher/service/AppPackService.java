@@ -105,5 +105,8 @@ public class AppPackService extends ObjectBasedGroupCacheSupportService<AppPack>
     public Map<Integer, AppPack> getAllType4AppsMapCache(){
         return (Map<Integer, AppPack>)getCache(MAP_TYPE_4_KEY);
     }
+    public AppPack getType4ByUid(Integer uid) {
+        return appPackMapper.getType4ByUid(uid);
+    }
 
 }
