@@ -45,4 +45,14 @@ public final class Config {
         }
         return randomDownloadURL()+prefix+path;
     }
+    /**
+     * 获得配置文件中某个参数的值
+     * @author tuziilm
+     * @param paramName
+     * @return
+     * 2015年7月27日
+     */
+    public static String getParam(String paramName){
+        return props.getProperty(paramName);
+    }
 }

@@ -11,6 +11,7 @@ public enum LogModule {
     USER_LOGOUT("用户退出", "index/softlogout"),
     USER_REGISTER("用户注册", "index/register"),
     USER_FINDPASSWD("用户找回密码", "index/findpasswd"),
+    USER_EDITPWD("用户修改密码", "index/editpwd"),
     APP_CONFIG("分类列表", "index/appconfig");
 
 	private String title;

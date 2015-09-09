@@ -51,9 +51,8 @@ public class UserLoginController extends AbstractCallbackController {
             }
             LoginContext.doLogin(sysUser, session);
             response.setContentType("text/json;charset=UTF-8");
-            JsonObject json = new JsonObject(3).add("opcode", 1006)
-                    .add("data", handlerData(LoginContext.get()))
-                    .add("errorcode", 0);
+            JsonObject json = new JsonObject(2).add("success", true)
+                    .add("data", handlerData(LoginContext.get()));
             mapper.writeValue(response.getOutputStream(), json);
         } else {
             errorParam(response);

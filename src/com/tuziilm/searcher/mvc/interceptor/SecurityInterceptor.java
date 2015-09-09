@@ -26,7 +26,7 @@ import java.util.Set;
 
 public class SecurityInterceptor extends HandlerInterceptorAdapter {
 	protected final Logger log= LoggerFactory.getLogger(getClass());
-	private final static Set<String> openApis= Sets.newHashSet("/login", "/index/appconfig");
+	private final static Set<String> openApis= Sets.newHashSet("/login", "/index/appconfig","/index/softlogin","/index/softlogout","/index/findpasswd","/index/register");
 	private final static Set<String> softApis = Sets.newHashSet();
 	@Override
 	public boolean preHandle(HttpServletRequest request,

@@ -41,7 +41,7 @@ public class UserLogoutController extends AbstractCallbackController {
         session.invalidate();
         response.setContentType("text/json;charset=UTF-8");
         JsonObject data = new JsonObject(1).add("result", 0);
-        JsonObject json = new JsonObject(3).add("opcode", 1008).add("errorcode", 0).add("data", data);
+        JsonObject json = new JsonObject(2).add("success", true).add("data", data);
         mapper.writeValue(response.getOutputStream(), json);
     }
 }
