@@ -1,6 +1,8 @@
 package com.tuziilm.searcher.service;
 
+import com.tuziilm.searcher.common.Paginator;
 import com.tuziilm.searcher.domain.App;
+import com.tuziilm.searcher.mvc.AppController.AppUniqueKeyQuery;
 import com.tuziilm.searcher.persistence.AppMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -96,5 +98,9 @@ public class AppService extends ObjectBasedGroupCacheSupportService<App>{
 
     public int countAll() {
         return appMapper.countAll();
+    }
+
+    public App getAppByUniqueKey(Paginator paginator) {
+        return appMapper.getAppByUniqueKey(paginator);
     }
 }

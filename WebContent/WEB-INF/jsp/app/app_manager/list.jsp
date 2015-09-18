@@ -27,6 +27,7 @@
           <th>名称</th>
           <th>链接</th>
           <th>类型</th>
+          <th>创建用户</th>
         </tr>
         <c:forEach var="data" items="${datas}" varStatus="it">
           <tr>
@@ -47,6 +48,7 @@
               </c:choose>
             </td>
             <td>${data.type=='1'?"搜索引擎":(data.type=='2'?"有图APP":"无图APP")}</td>
+            <td>${users[data.uid].username}</td>
           </tr>
         </c:forEach>
       </c:otherwise>

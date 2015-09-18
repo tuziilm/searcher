@@ -3,6 +3,7 @@ package com.tuziilm.searcher.domain;
 import com.google.common.base.Joiner;
 import com.google.common.base.Splitter;
 import com.google.common.base.Strings;
+import com.google.common.collect.Sets;
 import org.codehaus.jackson.annotate.JsonIgnore;
 
 import java.util.HashSet;
@@ -19,6 +20,7 @@ public class AppPack extends RemarkId{
     private Integer packType;
     private Set<Integer> appIds;
     private Integer uid;
+    private Set<String> countries;
 
     public String getName() {
         return name;
@@ -72,5 +74,27 @@ public class AppPack extends RemarkId{
 
     public void setUid(Integer uid) {
         this.uid = uid;
+    }
+
+    public String getCountries() {
+        if(countries==null || countries.isEmpty()){
+            return "";
+        }
+        return Joiner.on(",").skipNulls().join(countries);
+    }
+
+    public void setCountries(String countries) {
+        if(Strings.isNullOrEmpty(countries)){
+            return;
+        }
+        this.countries = Sets.newHashSet(Splitter.on(",").omitEmptyStrings().trimResults().split(countries));
+    }
+
+    public Set<String> getCountriesObject(){
+        return this.countries;
+    }
+
+    public void setCountriesObject(Set<String> countries){
+        this.countries = countries;
     }
 }

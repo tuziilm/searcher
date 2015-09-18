@@ -12,6 +12,7 @@ public class App extends RemarkId {
     private String imgFileName;
     private Integer type;
     private Integer status;
+    private Integer uid;
 
     public String getName() {
         return name;
@@ -59,5 +60,13 @@ public class App extends RemarkId {
 
     public void setStatus(Integer status) {
         this.status = status;
+    }
+
+    public Integer getUid() {
+        return uid;
+    }
+
+    public void setUid(Integer uid) {
+        this.uid = uid;
     }
 }

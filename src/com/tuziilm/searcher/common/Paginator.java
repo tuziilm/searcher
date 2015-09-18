@@ -14,7 +14,10 @@ public class Paginator {
     private boolean pageless;//是否为分页查询(有可能用于导出全部数据)
 	private String path;
 	private Query query;
-	
+
+	public Paginator(){
+	}
+
 	public Paginator(int page){
 		this.page=page;
 		init();

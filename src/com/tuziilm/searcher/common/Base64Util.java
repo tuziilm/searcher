@@ -291,17 +291,18 @@ public class Base64Util {
 	}
 
 	public static void main(String[] args) {
-		//��½
+		//��½
 //		String code = encode("{\"opcode\":\"1001\",\"opdata\":{\"pwd\":\"test\",\"user\":\"test\"}}");
-		String code = "";
+		String code = encode("{\"opcode\":\"1001\",\"opdata\":{\"uid\":\"1\",\"appid\":\"\",\"token\":\"A86CB1682825729776682D9744890D38\",\"link\":\"www.baidu.com\",\"name\":\"我的百度\"}}");
+//		String code = "";
 //		System.out.println(decode(decodeByKey(code)));
 //		System.out.println(code);
 //		System.out.println(encodeByKey(code));
 //		System.out.println(decodeByKey(encodeByKey(code)));
 //		String code1 = "Mw-5Jd25ndpONOoZB0uZoOlO7_Ke8EgHoTzAofK_nboSofgxJ_QOyb-WJ6IwoTqO3dIU3b-P1Q==";
-		System.out.println(decodeByKey(code));
+//		System.out.println(decodeByKey(code));
 //		System.out.println(decode(decodeByKey(code)));
-//		System.out.println("d=" + encodeByKey(code) + "&c=" + SecurityUtils.Get32CodeModel(encodeByKey(code)));
+		System.out.println("d=" + encodeByKey(code) + "&c=" + SecurityUtils.Get32CodeModel(encodeByKey(code)));
 	}
 
 }

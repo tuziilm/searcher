@@ -69,6 +69,7 @@ public class UserLoginController extends AbstractCallbackController {
     }
     public JsonObject handlerData(User user){
         return new JsonObject(5).add("uid", user.uid.toString())
+                .add("username",user.username)
                 .add("result",0)
                 .add("token",user.uuid);
     }

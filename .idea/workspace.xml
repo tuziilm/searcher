@@ -2,16 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b13e5c36-18fb-4c13-95b6-b7d6ac38ef2f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\searcher\out\artifacts\searcher_war_exploded\WEB-INF\classes\com\tuziilm\searcher\mvc\callback\AddUserDefinedController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\searcher\out\production\searcher\com\tuziilm\searcher\mvc\callback\AddUserDefinedController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\IdeaProjects\searcher\src\com\tuziilm\searcher\persistence\SysUserMapper.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/domain/App.class" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/domain/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/domain/App.class" afterPath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/domain/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/mvc/callback/AppConfigController.class" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/mvc/callback/AppConfigController.class" />
+      <change type="MODIFICATION" beforePath="D:\IdeaProjects\searcher\out\production\searcher\com\tuziilm\searcher\mvc\callback\AppConfigController.class" afterPath="D:\IdeaProjects\searcher\out\production\searcher\com\tuziilm\searcher\mvc\callback\AppConfigController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/mvc/AppController$AppForm.class" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/mvc/AppController$AppForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/mvc/AppController$AppForm.class" afterPath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/mvc/AppController$AppForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/mvc/AppController.class" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/mvc/AppController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/mvc/AppController.class" afterPath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/mvc/AppController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/domain/AppPack.class" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/domain/AppPack.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/domain/AppPack.class" afterPath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/domain/AppPack.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/mvc/AppPackController$AppPackForm.class" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/mvc/AppPackController$AppPackForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/mvc/AppPackController$AppPackForm.class" afterPath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/mvc/AppPackController$AppPackForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/mvc/AppPackController.class" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/mvc/AppPackController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/mvc/AppPackController.class" afterPath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/mvc/AppPackController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/common/Base64Util.class" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/common/Base64Util.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/common/Base64Util.class" afterPath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/common/Base64Util.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/common/LogModule.class" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/common/LogModule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/common/LogModule.class" afterPath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/common/LogModule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/mvc/interceptor/SecurityInterceptor.class" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/mvc/interceptor/SecurityInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/mvc/interceptor/SecurityInterceptor.class" afterPath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/mvc/interceptor/SecurityInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/service/SysUserService.class" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/service/SysUserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/service/SysUserService.class" afterPath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/service/SysUserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/mvc/callback/UserEditPwdController.class" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/mvc/callback/UserEditPwdController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/mvc/callback/UserEditPwdController.class" afterPath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/mvc/callback/UserEditPwdController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/mvc/callback/UserLoginController.class" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/mvc/callback/UserLoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/mvc/callback/UserLoginController.class" afterPath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/mvc/callback/UserLoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AddUserDefinedController.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AddUserDefinedController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/domain/App.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/domain/App.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AppConfigController.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AppConfigController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/AppController.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/AppController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppMapper.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/persistence/AppMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/persistence/AppMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/persistence/AppMapper.xml" afterPath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/persistence/AppMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppMapper.xml" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/domain/AppPack.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/domain/AppPack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/AppPackController.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/AppPackController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppPackMapper.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppPackMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/persistence/AppPackMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/persistence/AppPackMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/persistence/AppPackMapper.xml" afterPath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/persistence/AppPackMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppPackMapper.xml" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppPackMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/service/AppPackService.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/service/AppPackService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/common/LogModule.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/common/LogModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/service/AppService.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/service/AppService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/common/Base64Util.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/common/Base64Util.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/common/Paginator.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/common/Paginator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/interceptor/SecurityInterceptor.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/interceptor/SecurityInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/persistence/SysUserMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/classes/com/tuziilm/searcher/persistence/SysUserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/persistence/SysUserMapper.xml" afterPath="$PROJECT_DIR$/out/production/searcher/com/tuziilm/searcher/persistence/SysUserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/service/SysUserService.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/service/SysUserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserEditPwdController.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserEditPwdController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserIsLoginController.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserIsLoginController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserLoginController.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserLoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserLogoutController.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserLogoutController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserRegisterController.java" afterPath="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserRegisterController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_pack/create.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_pack/create.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/jsp/app/app_pack/create.jsp" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/jsp/app/app_pack/create.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_manager/list.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_manager/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_pack/list.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_pack/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/jsp/app/app_manager/list.jsp" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/jsp/app/app_manager/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/jsp/app/app_pack/list.jsp" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/jsp/app/app_pack/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searcher.iml" afterPath="$PROJECT_DIR$/searcher.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/searcher_war_exploded/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="searcher.iws" />
@@ -38,39 +91,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="AppPackController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/AppPackController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="505" max-vertical-offset="1998">
+              <caret line="62" column="70" selection-start-line="62" selection-start-column="70" selection-end-line="62" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AppConfigController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AppConfigController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="179" max-vertical-offset="1818">
-              <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="398" max-vertical-offset="2124">
+              <caret line="94" column="60" selection-start-line="94" selection-start-column="60" selection-end-line="94" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppPack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/domain/AppPack.java">
+      <file leaf-file-name="UserIsLoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserIsLoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="319" max-vertical-offset="1062">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="954">
+              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppPackMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppPackMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="1674">
-              <caret line="45" column="40" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="40" />
-              <folding>
-                <marker date="1441779990501" expanded="true" signature="933:968" placeholder="delete from ..." />
-                <marker date="1441779990501" expanded="true" signature="1883:1956" placeholder="select from ..app_pack..." />
-                <marker date="1441779990501" expanded="true" signature="2086:2345" placeholder="select from ..app_pack..." />
-                <marker date="1441779990501" expanded="true" signature="2458:2546" placeholder="select from ..app_pack..." />
-                <marker date="1441779990501" expanded="true" signature="2661:2751" placeholder="select from ..app_pack..." />
-                <marker date="1441779990501" expanded="true" signature="2865:3499" placeholder="update app_p..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -78,69 +124,76 @@
       <file leaf-file-name="UserRegisterController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserRegisterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="861" max-vertical-offset="1242">
-              <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1260">
+              <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config.properties">
+      <file leaf-file-name="UserFindpasswdController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserFindpasswdController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="249" max-vertical-offset="576">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1332">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserLoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserLoginController.java">
+      <file leaf-file-name="AddUserDefinedController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AddUserDefinedController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="771" max-vertical-offset="1098">
-              <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+            <state vertical-scroll-proportion="-0.4516129" vertical-offset="1176" max-vertical-offset="2088">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="name_search.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/theme/default/name_search.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="252">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractCallbackController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AbstractCallbackController.java">
+      <file leaf-file-name="UserEditPwdController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserEditPwdController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="1800">
-              <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="687" max-vertical-offset="1242">
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonSupport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/common/JsonSupport.java">
+      <file leaf-file-name="AppController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="414">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/common/LogModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="648">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserIsLoginController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserIsLoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5045872" vertical-offset="609" max-vertical-offset="936">
-              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="2376">
+              <caret line="130" column="33" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
+              <folding>
+                <element signature="e#4301#4302#0" expanded="true" />
+                <element signature="e#4336#4337#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,17 +206,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/sysuser/create.jsp" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/statistics/common/Config.java" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/domain/SysUser.java" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/theme/default/header.jsp" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/domain/App.java" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/ApkPackMapper.java" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/service/AppService.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/theme/default/func.jsp" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_manager/create.jsp" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_manager/list.jsp" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/CRUDController.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_manager/create1.jsp" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_manager/list1.jsp" />
@@ -171,39 +215,48 @@
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppPackMapper1.xml" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/OperationLogMapper1.xml" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/BaseMapper.java" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/AppController.java" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_pack/list.jsp" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/CommitPhoneInfoController.java" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_pack/create.jsp" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/listener/SessionListener.java" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/common/SecurityUtils.java" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/domain/Id.java" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppMapper.xml" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/domain/BaseForm.java" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/service/SysUserService.java" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/SysUserMapper.java" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/SysUserMapper.xml" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AbstractCallbackController.java" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/common/MailSend.java" />
         <option value="$PROJECT_DIR$/src/config.properties" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/common/Config.java" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/interceptor/SecurityInterceptor.java" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/common/JsonSupport.java" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/common/Base64Util.java" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserLogoutController.java" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserEditPwdController.java" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppPackMapper.xml" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/domain/AppPack.java" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/AppPackController.java" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/service/AppPackService.java" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppPackMapper.java" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AddUserDefinedController.java" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AppConfigController.java" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserFindpasswdController.java" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserLoginController.java" />
-        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserRegisterController.java" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/common/LogModule.java" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserLoginController.java" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/common/Base64Util.java" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/domain/App.java" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_manager/list.jsp" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/domain/SysUser.java" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/common/SystemUserType.java" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/SysUserMapper1.xml" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/domain/AppPack.java" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_pack/list.jsp" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/AppPackController.java" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppPackMapper.xml" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_pack/create.jsp" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/interceptor/SecurityInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/common/Paginator.java" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/service/AppService.java" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppMapper.java" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AppConfigController.java" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AddUserDefinedController.java" />
         <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserIsLoginController.java" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserRegisterController.java" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserEditPwdController.java" />
+        <option value="$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/AppController.java" />
       </list>
     </option>
   </component>
@@ -218,8 +271,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1366" />
-    <option name="height" value="738" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1374" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -228,10 +283,13 @@
           <State>
             <id />
           </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Abstraction issues</id>
+            <id>ServletWithoutMappingInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -246,7 +304,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -262,7 +320,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,6 +336,214 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sysuser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_pack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -441,6 +707,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="filter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="callback" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -489,23 +781,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="searcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="searcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -527,12 +805,13 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\searcher\src\com\tuziilm\searcher\persistence" />
       <recent name="D:\IdeaProjects\searcher\WebContent\WEB-INF\lib" />
       <recent name="D:\IdeaProjects\searcher\docs" />
-      <recent name="D:\IdeaProjects\searcher\src\com\tuziilm\searcher\persistence" />
       <recent name="D:\IdeaProjects\searcher\WebContent\WEB-INF\jsp" />
       <recent name="D:\IdeaProjects\searcher\src\com\tuziilm\searcher\service" />
     </key>
@@ -951,42 +1230,53 @@
       <workItem from="1441590557342" duration="8957000" />
       <workItem from="1441679330296" duration="14110000" />
       <workItem from="1441763616187" duration="7572000" />
-      <workItem from="1441785611312" duration="3258000" />
+      <workItem from="1441785611312" duration="5623000" />
+      <workItem from="1441849990264" duration="7490000" />
+      <workItem from="1441933587460" duration="2528000" />
+      <workItem from="1441956164725" duration="4044000" />
+      <workItem from="1441963324266" duration="73000" />
+      <workItem from="1442218532049" duration="3254000" />
+      <workItem from="1442285839156" duration="5331000" />
+      <workItem from="1442301244265" duration="1110000" />
+      <workItem from="1442368798343" duration="11789000" />
+      <workItem from="1442453659796" duration="8895000" />
+      <workItem from="1442465701515" duration="9244000" />
+      <workItem from="1442540591812" duration="9073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112685000" />
+    <option name="totallyTimeSpent" value="177881000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="738" extended-state="1" />
+    <frame x="-4" y="-4" width="1374" height="746" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37351444" sideWeight="0.37158054" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37478706" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30756304" sideWeight="0.62841946" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25151977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24848942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -997,34 +1287,34 @@
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43865547" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37351444" sideWeight="0.37158054" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42689076" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44537815" sideWeight="0.62841946" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3277311" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24848942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1046,433 +1336,470 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/AppController.java</url>
-          <line>2</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/interceptor/SecurityInterceptor.java</url>
-          <line>134</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AppConfigController.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="50" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="88" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="data.username" language="JSP" custom="" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Java/jdk1.7.0/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/service/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="643" max-vertical-offset="2160">
-          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/service/ObjectBasedGroupCacheSupportService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74054056" vertical-offset="165" max-vertical-offset="882">
-          <caret line="38" column="34" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/static/jquery/jquery-1.8.3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="97231" max-vertical-offset="170388">
-          <caret line="5424" column="4" selection-start-line="5424" selection-start-column="4" selection-end-line="5424" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/theme/default/func.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3785851" vertical-offset="0" max-vertical-offset="523">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/common/OperationLogType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7947883" vertical-offset="26" max-vertical-offset="594">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_manager/create.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.25" vertical-offset="0" max-vertical-offset="1152">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/OperationLogMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87027025" vertical-offset="525" max-vertical-offset="1116">
-          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="332" max-vertical-offset="1314">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="e#683#684#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/BaseMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15635179" vertical-offset="60" max-vertical-offset="594">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/domain/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="810">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_manager/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="679" max-vertical-offset="1350">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/root.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.16981132" vertical-offset="432" max-vertical-offset="1728">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_pack/create.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.21875" vertical-offset="1453" max-vertical-offset="2322">
-          <caret line="122" column="17" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/listener/SessionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.20334262" vertical-offset="163" max-vertical-offset="522">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_pack/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="12.78125" vertical-offset="1075" max-vertical-offset="1440">
-          <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/domain/RemarkId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22183098" vertical-offset="0" max-vertical-offset="568">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/common/SecurityUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1852" max-vertical-offset="2430">
-          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/domain/Id.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28697184" vertical-offset="89" max-vertical-offset="666">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/service/AppService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="959" max-vertical-offset="1476">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/AppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4086379" vertical-offset="80" max-vertical-offset="1620">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/common/LogStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6312293" vertical-offset="139" max-vertical-offset="1188">
-          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.538206" vertical-offset="0" max-vertical-offset="1872">
-          <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3312102" vertical-offset="148" max-vertical-offset="1314">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/domain/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6940063" vertical-offset="183" max-vertical-offset="1026">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/SysUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1026" max-vertical-offset="1926">
-          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/ListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5035461" vertical-offset="615" max-vertical-offset="1422">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/SysUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31690142" vertical-offset="0" max-vertical-offset="568">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/common/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8083624" vertical-offset="381" max-vertical-offset="1044">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="576">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="14" />
           <folding>
-            <element signature="e#1761#1762#0" expanded="false" />
-            <element signature="e#1812#1813#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/common/MailSend.java">
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2543554" vertical-offset="0" max-vertical-offset="1854">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/interceptor/SecurityInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="2664">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.4290657" vertical-offset="702" max-vertical-offset="1278">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/service/SysUserService.java">
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/springMVC-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4862069" vertical-offset="57" max-vertical-offset="468">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.7.0/src.zip!/java/io/PrintWriter.java">
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/searcher.tld">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="7609" max-vertical-offset="18216">
-          <caret line="471" column="16" selection-start-line="471" selection-start-column="16" selection-end-line="471" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1944">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/controllers.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/filter/CaseInsensitiveParamFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23841059" vertical-offset="0" max-vertical-offset="1404">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="593" max-vertical-offset="1314">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/common/Base64Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4971" max-vertical-offset="5526">
+          <caret line="288" column="9" selection-start-line="288" selection-start-column="9" selection-end-line="288" selection-end-column="9" />
           <folding>
-            <element signature="e#15583#15584#0" expanded="false" />
-            <element signature="e#15622#15623#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#357#358#0" expanded="false" />
+            <element signature="e#406#407#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/service/RedisSupportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1422">
+          <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1625#1626#0" expanded="false" />
+            <element signature="e#1667#1668#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/domain/BaseForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="936">
-          <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="900">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/common/UniqIdGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25263157" vertical-offset="0" max-vertical-offset="720">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_manager/create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/service/SimpleCacheSupportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="98" max-vertical-offset="720">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/service/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79930794" vertical-offset="147" max-vertical-offset="918">
+          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
           <folding>
-            <element signature="e#540#541#0" expanded="false" />
-            <element signature="e#564#565#0" expanded="false" />
+            <element signature="e#866#867#0" expanded="false" />
+            <element signature="e#918#919#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/common/Base64Util.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/SysUserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4569" max-vertical-offset="5508">
-          <caret line="284" column="0" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/CRUDController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5045872" vertical-offset="807" max-vertical-offset="1296">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="324">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/service/AppPackService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3079096" vertical-offset="269" max-vertical-offset="1620">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1027" max-vertical-offset="1620">
+          <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+          <folding>
+            <element signature="e#4228#4229#0" expanded="true" />
+            <element signature="e#4283#4284#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppPackMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49046323" vertical-offset="0" max-vertical-offset="367">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/AppPackController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1525424" vertical-offset="1212" max-vertical-offset="1836">
-          <caret line="139" column="20" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AddUserDefinedController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/SystemController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3559322" vertical-offset="258" max-vertical-offset="990">
-          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="354" max-vertical-offset="1008">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserFindpasswdController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/domain/StatisticSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1332">
-          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.33217993" vertical-offset="30" max-vertical-offset="738">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/domain/Size.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50993377" vertical-offset="62" max-vertical-offset="1638">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/ListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6435986" vertical-offset="894" max-vertical-offset="1422">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/domain/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="701" max-vertical-offset="990">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/sysuser/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="491" max-vertical-offset="1116">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/OperationLogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1116">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/common/SystemUserType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1116">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#3546#3547#0" expanded="false" />
-            <element signature="e#3623#3624#0" expanded="false" />
+            <element signature="e#1041#1042#0" expanded="false" />
+            <element signature="e#1064#1065#0" expanded="false" />
+            <element signature="e#1091#1092#0" expanded="false" />
+            <element signature="e#1109#1110#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserLogoutController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/SysUserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="403" max-vertical-offset="846">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserEditPwdController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.084745765" vertical-offset="276" max-vertical-offset="1224">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="45" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1908">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserRegisterController.java">
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="861" max-vertical-offset="1242">
-          <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.557491" vertical-offset="4752" max-vertical-offset="35046">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/domain/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="900">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config.properties">
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/SysUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="249" max-vertical-offset="576">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.37630662" vertical-offset="918" max-vertical-offset="2502">
+          <caret line="86" column="68" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/domain/AppPack.java">
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_manager/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="319" max-vertical-offset="1062">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state vertical-scroll-proportion="1.2901961" vertical-offset="607" max-vertical-offset="1386">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/CRUDController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8954704" vertical-offset="355" max-vertical-offset="1296">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_pack/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43023255" vertical-offset="825" max-vertical-offset="1548">
+          <caret line="52" column="98" selection-start-line="52" selection-start-column="83" selection-end-line="52" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/app/app_pack/create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4695652" vertical-offset="378" max-vertical-offset="3132">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppPackMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="1674">
-          <caret line="45" column="40" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="889" max-vertical-offset="1746">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
           <folding>
-            <marker date="1441779990501" expanded="true" signature="933:968" placeholder="delete from ..." />
-            <marker date="1441779990501" expanded="true" signature="1883:1956" placeholder="select from ..app_pack..." />
-            <marker date="1441779990501" expanded="true" signature="2086:2345" placeholder="select from ..app_pack..." />
-            <marker date="1441779990501" expanded="true" signature="2458:2546" placeholder="select from ..app_pack..." />
-            <marker date="1441779990501" expanded="true" signature="2661:2751" placeholder="select from ..app_pack..." />
-            <marker date="1441779990501" expanded="true" signature="2865:3499" placeholder="update app_p..." />
+            <marker date="1442477929984" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1442477929984" expanded="true" signature="-1:-1" placeholder="select from ..app_pack..." />
+            <marker date="1442477929984" expanded="true" signature="-1:-1" placeholder="select from ..app_pack..." />
+            <marker date="1442477929984" expanded="true" signature="-1:-1" placeholder="select from ..app_pack..." />
+            <marker date="1442477929984" expanded="true" signature="-1:-1" placeholder="select from ..app_pack..." />
+            <marker date="1442477929984" expanded="true" signature="-1:-1" placeholder="update app_p..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/common/Paginator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46875" vertical-offset="162" max-vertical-offset="1728">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/service/AppService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61185986" vertical-offset="1069" max-vertical-offset="1512">
+          <caret line="99" column="29" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
+          <folding>
+            <element signature="e#3564#3565#0" expanded="true" />
+            <element signature="e#3625#3626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1231" max-vertical-offset="2286">
+          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+          <folding>
+            <marker date="1442543015843" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1442543015843" expanded="true" signature="-1:-1" placeholder="select from ..app..." />
+            <marker date="1442543015843" expanded="true" signature="-1:-1" placeholder="select from ..app..." />
+            <marker date="1442543015843" expanded="true" signature="-1:-1" placeholder="select count..app..." />
+            <marker date="1442543015843" expanded="true" signature="-1:-1" placeholder="select count..app..." />
+            <marker date="1442543015843" expanded="true" signature="-1:-1" placeholder="select from ..app..." />
+            <marker date="1442543015843" expanded="true" signature="-1:-1" placeholder="update app n..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/persistence/AppMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jsp/theme/default/name_search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="252">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/AppPackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="451" max-vertical-offset="1998">
+          <caret line="62" column="70" selection-start-line="62" selection-start-column="70" selection-end-line="62" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/domain/AppPack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="974" max-vertical-offset="1404">
+          <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/interceptor/SecurityInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="110" max-vertical-offset="2664">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AppConfigController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="179" max-vertical-offset="1818">
-          <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/common/LogModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="648">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1098">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AbstractCallbackController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="1800">
-          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/common/JsonSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="414">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="76" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="398" max-vertical-offset="2124">
+          <caret line="94" column="60" selection-start-line="94" selection-start-column="60" selection-end-line="94" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserIsLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5045872" vertical-offset="609" max-vertical-offset="936">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="954">
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserRegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1260">
+          <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserFindpasswdController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1332">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/UserEditPwdController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="687" max-vertical-offset="1242">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="2376">
+          <caret line="130" column="33" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
+          <folding>
+            <element signature="e#4301#4302#0" expanded="true" />
+            <element signature="e#4336#4337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuziilm/searcher/mvc/callback/AddUserDefinedController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4516129" vertical-offset="1176" max-vertical-offset="2088">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1495,7 +1822,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Web (searcher)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1531,7 +1858,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|searcher</last-edited>
+          <last-edited>Spring|searcher</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

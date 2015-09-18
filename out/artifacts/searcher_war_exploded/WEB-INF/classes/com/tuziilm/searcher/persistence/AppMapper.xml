@@ -4,6 +4,10 @@
     <resultMap id="BaseResultMap" type="com.tuziilm.searcher.domain.App" >
         <id column="id" property="id" jdbcType="INTEGER" />
         <result column="name" property="name" jdbcType="VARCHAR" />
+        <result column="link" property="link" jdbcType="VARCHAR" />
+        <result column="type" property="type" jdbcType="INTEGER" />
+        <result column="uid" property="uid" jdbcType="INTEGER" />
+        <result column="status" property="status" jdbcType="INTEGER" />
         <result column="img_path" property="imgPath" jdbcType="VARCHAR" />
         <result column="img_file_name" property="imgFileName" jdbcType="VARCHAR" />
         <result column="remark" property="remark" jdbcType="VARCHAR" />
@@ -11,10 +15,10 @@
         <result column="gmt_modified" property="gmtModified" jdbcType="TIMESTAMP" />
     </resultMap>
     <delete id="deleteById">
-        update app set status = -1 where id=#{id}
+        delete from app where id=#{id}
     </delete>
     <delete id="deleteByIds">
-        update app set status = -1 where id in
+        delete from app where id in
         <foreach collection="array" item="ids"  open="(" separator="," close=")">
             #{ids}
         </foreach>
@@ -24,13 +28,13 @@
         <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
             SELECT LAST_INSERT_ID()
         </selectKey>
-        insert into app (name, link, img_path, img_file_name, status, type, remark, gmt_create, gmt_modified)
+        insert into app (name, link, img_path, img_file_name, status, type, uid, remark, gmt_create, gmt_modified)
         values (#{name,jdbcType=VARCHAR}, #{link,jdbcType=VARCHAR}, #{imgPath,jdbcType=VARCHAR},
-        #{imgFileName,jdbcType=VARCHAR}, #{status,jdbcType=INTEGER}, #{type,jdbcType=INTEGER}, #{remark,jdbcType=VARCHAR}, now(), now())
+        #{imgFileName,jdbcType=VARCHAR}, #{status,jdbcType=INTEGER}, #{type,jdbcType=INTEGER}, #{uid,jdbcType=INTEGER}, #{remark,jdbcType=VARCHAR}, now(), now())
     </insert>
 
     <sql id="Base_Column_List" >
-        id, name, link, img_path, img_file_name, status, type, remark, gmt_create, gmt_modified
+        id, name, link, uid, img_path, img_file_name, status, type, remark, gmt_create, gmt_modified
     </sql>
 
     <select id="selectAll" resultMap="BaseResultMap" >
@@ -67,7 +71,23 @@
         <include refid="Base_Column_List" />
         from app where id=#{id}
     </select>
-
+    <select id="getAppByUniqueKey" resultMap="BaseResultMap" parameterType="com.tuziilm.searcher.common.Paginator">
+        select
+        <include refid="Base_Column_List" />
+        from app
+        <where>
+            1=1
+            <if test="query.name != null">
+                and name = #{query.name}
+            </if>
+            <if test="query.link != null">
+                and link = #{query.link}
+            </if>
+            <if test="query.type != null">
+                and type = #{query.type}
+            </if>
+        </where>
+    </select>
     <update id="updateByIdSelective" parameterType="com.tuziilm.searcher.domain.App" >
         update app
         <set >
@@ -84,10 +104,13 @@
                 img_file_name = #{imgFileName,jdbcType=VARCHAR},
             </if>
             <if test="type != null" >
-                type = #{type,jdbcType=VARCHAR},
+                `type` = #{type,jdbcType=VARCHAR},
             </if>
             <if test="status != null" >
                 status = #{status,jdbcType=INTEGER},
+            </if>
+            <if test="uid != null" >
+                uid = #{uid,jdbcType=INTEGER},
             </if>
             <if test="remark != null" >
                 remark = #{remark,jdbcType=VARCHAR}

@@ -7,6 +7,7 @@
         <result column="pack_type" property="packType" jdbcType="INTEGER" />
         <result column="app_ids" property="appIds" jdbcType="VARCHAR" />
         <result column="uid" property="uid" jdbcType="INTEGER" />
+        <result column="countries" property="countries" jdbcType="VARCHAR" />
         <result column="remark" property="remark" jdbcType="VARCHAR" />
         <result column="gmt_create" property="gmtCreate" jdbcType="TIMESTAMP" />
         <result column="gmt_modified" property="gmtModified" jdbcType="TIMESTAMP" />
@@ -25,14 +26,14 @@
         <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
             SELECT LAST_INSERT_ID()
         </selectKey>
-        insert into app_pack (name, pack_type, app_ids, uid, remark,
+        insert into app_pack (name, pack_type, app_ids, uid,`countries`, remark,
         gmt_create, gmt_modified)
         values (#{name,jdbcType=VARCHAR},#{packType,jdbcType=INTEGER},
-        #{appIds,jdbcType=VARCHAR}, #{uid,jdbcType=INTEGER}, #{remark,jdbcType=VARCHAR}, now(), now())
+        #{appIds,jdbcType=VARCHAR}, #{uid,jdbcType=INTEGER},#{countries,jdbcType=VARCHAR}, #{remark,jdbcType=VARCHAR}, now(), now())
     </insert>
 
     <sql id="Base_Column_List" >
-        id, name, pack_type, app_ids, uid, remark, gmt_create, gmt_modified
+        id, name, pack_type, app_ids, uid,`countries`, remark, gmt_create, gmt_modified
     </sql>
 
     <select id="selectAll" resultMap="BaseResultMap" >
@@ -61,7 +62,7 @@
     <select id="getType4ByUid" resultMap="BaseResultMap" parameterType="java.lang.Integer">
         select
         <include refid="Base_Column_List" />
-        from app_pack where uid=#{uid}
+        from app_pack where uid=#{uid} and pack_type = 4
     </select>
     <update id="updateByIdSelective" parameterType="com.tuziilm.searcher.domain.AppPack" >
         update app_pack
@@ -77,6 +78,9 @@
             </if>
             <if test="uid != null" >
                 uid = #{uid,jdbcType=INTEGER},
+            </if>
+            <if test="fn.notEmpty(countries)">
+                countries=#{countries,jdbcType=VARCHAR},
             </if>
             <if test="remark != null" >
                 remark = #{remark,jdbcType=VARCHAR}

@@ -1,5 +1,6 @@
 package com.tuziilm.searcher.persistence;
 
+import com.tuziilm.searcher.common.Paginator;
 import com.tuziilm.searcher.domain.App;
 
 /**
@@ -8,4 +9,6 @@ import com.tuziilm.searcher.domain.App;
  */
 public interface AppMapper extends BaseMapper<App>{
     int countAll();
+
+    App getAppByUniqueKey(Paginator paginator);
 }

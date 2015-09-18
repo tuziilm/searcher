@@ -48,6 +48,12 @@
 										<c:forEach var="appId" items="${data.appIdsObject}" varStatus="vs">
 											<span><c:if test="${not vs.first}">,</c:if>${appMap[appId].name}</span>
 										</c:forEach></li>
+										<li>
+											<strong>国家：</strong>
+											<c:forEach var="country" items="${data.countriesObject}" varStatus="vs">
+												<span><c:if test="${not vs.first}">,</c:if>${countryMap[country].chineseName}</span>
+											</c:forEach>
+										</li>
                                         <li><strong>创建时间：</strong><fmt:formatDate value="${data.gmtCreate}" pattern="yyyy/MM/dd HH:mm:ss" var="gmtCreate"/>${gmtCreate}</li>
                                         <li><strong>更新时间：</strong><fmt:formatDate value="${data.gmtModified}" pattern="yyyy/MM/dd HH:mm:ss" var="gmtModified"/>${gmtModified}</li>
 										<li><strong>备注：</strong>${fn:escapeXml(data.remark )}</li>

@@ -1,10 +1,12 @@
 package com.tuziilm.searcher.mvc.callback;
 
 import com.tuziilm.searcher.common.Config;
+import com.tuziilm.searcher.common.IpSeeker;
 import com.tuziilm.searcher.common.JsonObject;
 import com.tuziilm.searcher.common.LogModule;
 import com.tuziilm.searcher.common.LogStatistics;
 import com.tuziilm.searcher.common.LoginContext;
+import com.tuziilm.searcher.common.RequestUtils;
 import com.tuziilm.searcher.domain.App;
 import com.tuziilm.searcher.domain.AppPack;
 import com.tuziilm.searcher.domain.BaseForm;
@@ -24,6 +26,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -42,6 +45,8 @@ public class AppConfigController extends AbstractCallbackController{
     @RequestMapping(value = "/index/appconfig", method = RequestMethod.POST)
     public void adRules(@Valid BaseForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
         form.reload(form);
+        IpSeeker.IpData ipData = IpSeeker.ipData(RequestUtils.getRemoteIp(request));
+        String shortcut = ipData==null?"cn":ipData.shortcut;
         LogStatistics.log(LogModule.APP_CONFIG, "index/appconfig", false, request, form.toParams());
         if (!form.getValid()) {
             errorParam(response);
@@ -54,7 +59,7 @@ public class AppConfigController extends AbstractCallbackController{
             return;
         }
         Integer opcode = Integer.parseInt(opcodeNode.asText());
-        List<AppPack> appPackList = null;
+        List<AppPack> appPackList = new ArrayList<>();
         if (opcode == 1001) {
             appPackList = appPackService.getAllType1AppsCache();
         } else if (opcode == 1002) {
@@ -84,14 +89,26 @@ public class AppConfigController extends AbstractCallbackController{
                 }
             }
         }
+        appPackList = isContainCountry(appPackList, shortcut);
         JsonObject json = new JsonObject(2).add("success", true).add("appPacks", getAppPack(appPackList));
-
         response.setContentType("text/json;charset=UTF-8");
         mapper.writeValue(response.getOutputStream(), json);
 
     }
+    public List<AppPack> isContainCountry(List<AppPack> appPackList,String shortcut) {
+        List<AppPack> result = new ArrayList<>();
+        for(AppPack appPack:appPackList){
+            if(appPack.getCountriesObject().contains(shortcut)) {
+                result.add(appPack);
+            }
+        }
+        return result;
 
+    }
     public List<JsonObject> getAppPack(List<AppPack> appPackList){
+        if(appPackList==null) {
+            return Collections.emptyList();
+        }
         List<JsonObject> appPacks = new ArrayList<>(appPackList.size());
         for(AppPack appPack:appPackList){
             List<App> appList = new ArrayList<>();
@@ -105,6 +122,9 @@ public class AppConfigController extends AbstractCallbackController{
     }
 
     public List<JsonObject> getApp(List<App> appList){
+        if(appList==null) {
+            return Collections.emptyList();
+        }
         List<JsonObject> apps = new ArrayList<>(appList.size());
         for(App app:appList){
             apps.add(new JsonObject(3)

@@ -2,6 +2,7 @@ package com.tuziilm.searcher.mvc;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
+import com.tuziilm.searcher.common.Country;
 import com.tuziilm.searcher.common.OperationLogType;
 import com.tuziilm.searcher.common.Paginator;
 import com.tuziilm.searcher.common.Query;
@@ -15,6 +16,7 @@ import com.tuziilm.searcher.service.AppPackService;
 import com.tuziilm.searcher.service.AppService;
 import com.tuziilm.searcher.service.OperationLogService;
 import org.hibernate.validator.constraints.NotBlank;
+import org.hibernate.validator.constraints.NotEmpty;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -58,6 +60,7 @@ public class AppPackController extends CRUDController<AppPack,AppPackService,App
     protected boolean preList(int page, Paginator paginator, Query.NameQuery query, Model model) {
         paginator.setNeedTotal(true);
         model.addAttribute("appMap", appService.getAllAppsMapCache());
+        model.addAttribute("countryMap", Country.shortcut2CountryMap);
         return super.preList(page, paginator, query, model);
     }
 
@@ -69,6 +72,7 @@ public class AppPackController extends CRUDController<AppPack,AppPackService,App
         model.addAttribute("apps1", appType1List);
         model.addAttribute("apps2", appType2List);
         model.addAttribute("apps3", appType3List);
+        model.addAttribute("countries", Country.countries);
     }
 
     @Override
@@ -103,6 +107,8 @@ public class AppPackController extends CRUDController<AppPack,AppPackService,App
         private String name;
         private Integer type;
         private Set<Integer> appIds;
+        @NotEmpty(message = "国家不能为空")
+        private Set<String> countriesObject;
 
         public Set<Integer> getAppIds() {
             return appIds;
@@ -128,6 +134,14 @@ public class AppPackController extends CRUDController<AppPack,AppPackService,App
             this.name = name;
         }
 
+        public Set<String> getCountriesObject() {
+            return countriesObject;
+        }
+
+        public void setCountriesObject(Set<String> countriesObject) {
+            this.countriesObject = countriesObject;
+        }
+
         @Override
         public AppPack newObj() {
             return new AppPack();
@@ -139,6 +153,7 @@ public class AppPackController extends CRUDController<AppPack,AppPackService,App
             appPack.setPackType(type);
             appPack.setAppIdsObject(appIds);
             appPack.setUid(0);
+            appPack.setCountriesObject(countriesObject);
         }
     }
 

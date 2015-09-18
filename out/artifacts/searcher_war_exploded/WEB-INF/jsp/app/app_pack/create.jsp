@@ -6,7 +6,7 @@
 <c:set var="_module" value="app" scope="request"/>
 <c:import url="../../theme/${_theme}/header.jsp"></c:import>
 <!-- main content -->
-		<div class="page-header"><h1>APP上传</h1></div>
+		<div class="page-header"><h1>创建套餐</h1></div>
 		<div id="pageContent">
 			<c:import url="../../theme/${_theme}/errors.jsp"></c:import>
 			<form action="${basePath}app/app_pack/save" method="post" class="form-horizontal" enctype="multipart/form-data">
@@ -29,7 +29,7 @@
 					</div>
 				</div>
 				<script type="text/javascript">
-					document.getElementById("type_sel").value='${searcher:defVal(form.type,1)}';
+					document.getElementById("type_sel").value='${searcher:defVal(form.packType,1)}';
 				</script>
 				<div id="_cg_apps" class="control-group required-field">
 					<label class="control-label">app:</label>
@@ -53,6 +53,24 @@
 						<div id="_apps3">
 							<c:forEach var="app" items="${apps3}">
 								<span class="selLabel"><input ${searcher:contains(form.appIdsObject, app.id)?"checked=\"checked\"":""} type="checkbox" name="appIds" value="${app.id}"><span>${app.name}</span></span>
+							</c:forEach>
+						</div>
+					</div>
+				</div>
+				<div class="control-group required-field">
+					<label class="control-label">国家:</label>
+					<div class="controls">
+						<div class="control-search-bar">
+							<input id="_country_kw" name="_country_kw" class="input-medium">
+							<input class="btn" type="button" onclick="javascript:searchSelected1('_country_kw','_countries');" value="搜索">
+							<input class="btn" type="button" onclick="javascript:showSelected1('_countries');" value="选择项">
+							<input type="checkbox" onchange="javascript:toggleAllSelected1('_countries', this);">全选/全不选
+						</div>
+						<div id="_countries">
+							<c:forEach var="country" items="${countries}">
+								<c:if test="${param.test=='1' || (country.shortcut!='cn' && country.shortcut!='tw' && country.shortcut!='hk' && country.shortcut!='mo')}">
+									<span class="selLabel"><input ${searcher:contains(form.countriesObject, country.shortcut)?"checked=\"checked\"":""} type="checkbox" name="countriesObject" value="${country.shortcut}"><span>${country.chineseName}</span></span>
+								</c:if>
 							</c:forEach>
 						</div>
 					</div>
@@ -119,6 +137,33 @@
 			}
 		});
 	}
+	function searchSelected1(kwElemId, resultDivId){
+		var kw = $("#"+kwElemId).val();
+		$("#"+resultDivId+" .selLabel").each(function(){
+			if(($("span",this).html()+"").indexOf(kw)==-1){
+				$(this).hide();
+			}else{
+				$(this).show();
+			}
+		});
+	}
+	function showSelected1(resultDivId){
+		$("#"+resultDivId+" .selLabel").each(function(){
+			if($("input[type=checkbox]",this)[0].checked){
+				$(this).show();
+			}else{
+				$(this).hide();
+			}
+		});
+	}
+	function toggleAllSelected1(resultDivId, elem){
+		$("#"+resultDivId+" .selLabel").each(function(){
+			if($(this).is(":visible")){
+				$($("input[type=checkbox]",this)[0]).attr("checked",elem.checked);
+			}
+		});
+	}
 	showSelected("_apps");
+	showSelected1("_countries");
 	changeType();
 </script>

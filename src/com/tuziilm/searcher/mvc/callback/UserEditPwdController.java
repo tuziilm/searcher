@@ -55,7 +55,7 @@ public class UserEditPwdController extends AbstractCallbackController {
             String oldPwd = jo.get("oldPwd").asText();
             String newPwd = jo.get("newPwd").asText();
             SysUser sysUser = sysUserService.getByUsername(username);
-            if(sysUser != null) {
+            if(sysUser == null) {
                 userExist(response);
                 return;
             }
@@ -75,7 +75,8 @@ public class UserEditPwdController extends AbstractCallbackController {
         }
     }
     public JsonObject handlerData(User user){
-        return new JsonObject(5).add("uid", user.uid.toString())
+        return new JsonObject(4).add("uid", user.uid.toString())
+                .add("username",user.username)
                 .add("result",0)
                 .add("token",user.uuid);
     }
