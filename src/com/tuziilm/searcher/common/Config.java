@@ -14,6 +14,7 @@ import java.util.Set;
  *
  */
 public final class Config {
+    public final static String SEP="\u0001";
     private final static Random rand = new Random(System.currentTimeMillis());
 	public final static Properties props=new Properties();
 	static{
@@ -30,7 +31,9 @@ public final class Config {
     public final static String HOST_URL="http://"+DOMAIN;
 	public final static String APP_NAME=props.getProperty("app.name");
     public static String[] DOWNLOAD_URL=props.getProperty("download.url").split("\\s+");
-    public final static Set<String> TEST_IDENTITIES= Sets.newHashSet("460019002606393","460028174372880","460028998577977");
+    public final static Set<String> NO_AD_COUNTRIES=Sets.newHashSet("cn","tw","hk","mo");
+    public final static Set<String> BLOCKING_FROMS=Sets.newHashSet();
+    public final static Set<String> TEST_IDENTITIES= Sets.newHashSet("460015616510450","460028174372880","460028998577977");
 
     public final static String randomDownloadURL(){
         if (DOWNLOAD_URL==null || DOWNLOAD_URL.length<1){

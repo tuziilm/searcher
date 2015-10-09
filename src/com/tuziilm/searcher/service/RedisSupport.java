@@ -21,23 +21,23 @@ import javax.annotation.Resource;
  */
 @Component
 public class RedisSupport {
-	private final Logger log=LoggerFactory.getLogger(getClass());
-	@Resource
-	private JedisPool jedisPool;
-	
-	public static interface JedisHandler<T>{
-		public T handle(Jedis jedis);
-	}
+    private final Logger log=LoggerFactory.getLogger(getClass());
+    @Resource
+    private JedisPool jedisPool;
+
+    public static interface JedisHandler<T>{
+        public T handle(Jedis jedis);
+    }
 
     public <T> T try2DoWithRedisWithNoException(final JedisHandler<T> handler){
         return try2DoWithRedis(handler, false);
     }
 
     public <T> T try2DoWithRedis(final JedisHandler<T> handler){
-       return try2DoWithRedis(handler, true);
+        return try2DoWithRedis(handler, true);
     }
 
-	public <T> T try2DoWithRedis(final JedisHandler<T> handler, final boolean throwEx){
+    public <T> T try2DoWithRedis(final JedisHandler<T> handler, final boolean throwEx){
         return TryUtils.doTry(new TryUtils.Func<T>() {
             @Override
             public T run() {
@@ -67,15 +67,15 @@ public class RedisSupport {
                 }
             }
         });
-	}
-	public <T> T doWithRedis(JedisHandler<T> handler){
-		Jedis jedis=null;
-		try{
-			jedis=jedisPool.getResource();
-			return handler.handle(jedis);
-		}finally{
-			if(jedis!=null)
-				jedisPool.returnResource(jedis);
-		}
-	}
+    }
+    public <T> T doWithRedis(JedisHandler<T> handler){
+        Jedis jedis=null;
+        try{
+            jedis=jedisPool.getResource();
+            return handler.handle(jedis);
+        }finally{
+            if(jedis!=null)
+                jedisPool.returnResource(jedis);
+        }
+    }
 }

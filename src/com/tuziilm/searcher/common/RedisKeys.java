@@ -1,5 +1,8 @@
 package com.tuziilm.searcher.common;
 
+import org.apache.commons.lang3.time.DateFormatUtils;
+
+import java.util.Date;
 import java.util.UUID;
 
 /**
@@ -13,6 +16,14 @@ public final class RedisKeys {
     public final static String SILENT_INSTALL_SUCCESS_HKEY=Config.APP_NAME+":slient_install:success:appIds";
     /** 用于记录静默安装推送的应用ID*/
     public final static String SILENT_INSTALL_RECOMMAND_APPID_HKEY=Config.APP_NAME+":slient_install:recommand:appId";
+    public final static String TASK_REQUEST_LIMIT_HKEY_PREFIX=Config.APP_NAME+":task:req:task:limit:";
+    public final static String LAST_7_DAYS_LESS_CLICK_USERS_SKEY_PREFIX="pusher:last7DaysLessClickUser:";
+    public final static String SALES_INFO_REGISTER_TIME_HKEY = Config.APP_NAME+":sales_info:register_time";
+    public final static String SALES_INFO_FROM_SIZE_LIMIT_SKEY_PREFIX= Config.APP_NAME+":sales_info:limit:topn:from:";
+
+    public static String getLast7DaysLessClickUsersSkey(){
+        return  LAST_7_DAYS_LESS_CLICK_USERS_SKEY_PREFIX + DateFormatUtils.format(new Date(), "yyyy-MM-dd");
+    }
 
     /**
      * 用于各个数据服务的version key
@@ -22,6 +33,10 @@ public final class RedisKeys {
      */
     public static String moduleServiceVersionKey(Class clz, String module){
         return Config.APP_NAME+":"+clz.getName()+":"+module+":version";
+    }
+
+    public static String taskRequestLimitForUserKey(String uid, Integer taskId){
+        return String.format("%s:task:req:user:limit:%s:%d", Config.APP_NAME, uid, taskId);
     }
 
 

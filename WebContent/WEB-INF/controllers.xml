@@ -9,6 +9,7 @@
 
 	<!-- Maps '/' requests to the 'home' view -->
 	<mvc:view-controller path="/" view-name="home"/>
+	<mvc:view-controller path="/tutu" view-name="index"/>
 
 	<context:component-scan base-package="com.tuziilm.searcher.mvc" />
 

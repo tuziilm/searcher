@@ -36,7 +36,22 @@
     <!-- enable transaction demarcation with annotations -->
     <tx:annotation-driven />
 
-    <!-- define the SqlSessionFactory -->
+    <!--通过模板定制mybatis的行为 -->
+    <!--
+    <bean id="sqlSessionTemplateSimple" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg index="0" ref="localSqlSessionFactory" />
+        <constructor-arg index="1" value="SIMPLE"/>
+    </bean>
+    -->
+    <!--通过模板定制mybatis的行为 -->
+    <!--
+    <bean id="sqlSessionTemplateBatch" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg index="0" ref="localSqlSessionFactory" />
+        <constructor-arg index="1" value="BATCH"/>
+    </bean>
+    -->
+        <!-- define the SqlSessionFactory -->
+
     <bean id="localSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="localDataSource" />
         <property name="typeAliasesPackage" value="com.tuziilm.searcher.domain" />
@@ -47,19 +62,22 @@
         <property name="basePackage" value="com.tuziilm.searcher.persistence" />
         <property name="sqlSessionFactoryBeanName" value="localSqlSessionFactory"/>
     </bean>
-
+    <bean id="writer" class="org.mybatis.spring.batch.MyBatisBatchItemWriter">
+        <property name="sqlSessionFactory" ref="localSqlSessionFactory" />
+        <property name="statementId" value="com.tuziilm.searcher.persistence.AppMapper.insertBatch" />
+    </bean>
 	<!-- Redis -->
-	<bean id="jedisPool" class="redis.clients.jedis.JedisPool">
-		<constructor-arg index="0">
-			<bean class="redis.clients.jedis.JedisPoolConfig">
-				<property name="maxActive" value="${redis.pool.maxActive}" />
-				<property name="maxIdle" value="${redis.pool.maxIdle}" />
-				<property name="minIdle" value="${redis.pool.minIdle}" />
+    <bean id="jedisPool" class="redis.clients.jedis.JedisPool">
+        <constructor-arg index="0">
+            <bean class="redis.clients.jedis.JedisPoolConfig">
+                <property name="maxActive" value="${redis.pool.maxActive}" />
+                <property name="maxIdle" value="${redis.pool.maxIdle}" />
+                <property name="minIdle" value="${redis.pool.minIdle}" />
                 <property name="maxWait" value="${redis.pool.maxWait}" />
-			</bean>
-		</constructor-arg>
-		<constructor-arg index="1" value="${redis.ip}"/>
-		<constructor-arg index="2" value="${redis.port}"/>
-		<constructor-arg index="3" value="${redis.timeout}"/>
-	</bean>
+            </bean>
+        </constructor-arg>
+        <constructor-arg index="1" value="${redis.ip}"/>
+        <constructor-arg index="2" value="${redis.port}"/>
+        <constructor-arg index="3" value="${redis.timeout}"/>
+    </bean>
 </beans>

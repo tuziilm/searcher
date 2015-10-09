@@ -127,7 +127,7 @@ public class AppConfigController extends AbstractCallbackController{
         }
         List<JsonObject> apps = new ArrayList<>(appList.size());
         for(App app:appList){
-            apps.add(new JsonObject(3)
+            apps.add(new JsonObject(5)
                     .add("id", app.getId())
                     .add("name", app.getName())
                     .add("link", app.getLink())

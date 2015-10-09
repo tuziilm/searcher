@@ -4,9 +4,13 @@ import com.tuziilm.searcher.common.Paginator;
 import com.tuziilm.searcher.domain.App;
 import com.tuziilm.searcher.mvc.AppController.AppUniqueKeyQuery;
 import com.tuziilm.searcher.persistence.AppMapper;
+import org.apache.ibatis.annotations.Param;
+import org.mybatis.spring.batch.MyBatisBatchItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -29,6 +33,8 @@ public class AppService extends ObjectBasedGroupCacheSupportService<App>{
     private final static String MAP_TYPE_2_KEY = "map_type_2_key";
     private final static String MAP_TYPE_3_KEY = "map_type_3_key";
     private AppMapper appMapper;
+    @Resource
+    private MyBatisBatchItemWriter writer;
     @Autowired
     public void setAppMapper(AppMapper appMapper) {
         this.mapper = appMapper;
@@ -103,4 +109,10 @@ public class AppService extends ObjectBasedGroupCacheSupportService<App>{
     public App getAppByUniqueKey(Paginator paginator) {
         return appMapper.getAppByUniqueKey(paginator);
     }
+
+    public void insertAllApps(@Param("apps")List<App> apps) {
+       writer.write(apps);
+//        appMapper.insertBatch(apps);
+    }
+
 }

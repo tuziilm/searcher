@@ -68,7 +68,11 @@ public class StringUtils {
 		}
 		return "";
 	}
-	
+
+	public static String fixedLength(String input, int len){
+		return input==null||input.length()<=len?input:input.substring(0,len);
+	}
+
 	public static void main(String[] args) {
 		String[][] data=new String[][]{{"a","b"},{"c","d"},{"c","d"}};
 		System.out.println(toGoogleChartData(data));

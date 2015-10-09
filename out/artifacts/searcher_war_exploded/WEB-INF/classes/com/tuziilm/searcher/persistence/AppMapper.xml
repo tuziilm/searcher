@@ -118,4 +118,27 @@
         </set>
         where id = #{id,jdbcType=INTEGER}
     </update>
+    <!--
+    <insert id="insertBatch" useGeneratedKeys="true" parameterType="java.util.List">
+        <selectKey resultType="long" keyProperty="id" order="AFTER">
+            SELECT
+            LAST_INSERT_ID()
+        </selectKey>
+        insert into app ( name, link, img_path, img_file_name, status, type, uid, remark, gmt_create, gmt_modified )
+        values
+        <foreach collection="list" item="item" index="index" separator=",">
+            (#{item.name,jdbcType=VARCHAR}, #{item.link,jdbcType=VARCHAR}, #{item.imgPath,jdbcType=VARCHAR},
+            #{item.imgFileName,jdbcType=VARCHAR}, #{item.status,jdbcType=INTEGER}, #{item.type,jdbcType=INTEGER},
+            #{item.uid,jdbcType=INTEGER}, #{item.remark,jdbcType=VARCHAR}, now(), now())
+        </foreach>
+    </insert>
+    -->
+    <insert id="insertBatch" parameterType="com.tuziilm.searcher.domain.App" >
+        <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        insert into app (name, link, img_path, img_file_name, status, type, uid, remark, gmt_create, gmt_modified)
+        values (#{name,jdbcType=VARCHAR}, #{link,jdbcType=VARCHAR}, #{imgPath,jdbcType=VARCHAR},
+        #{imgFileName,jdbcType=VARCHAR}, #{status,jdbcType=INTEGER}, #{type,jdbcType=INTEGER}, #{uid,jdbcType=INTEGER}, #{remark,jdbcType=VARCHAR}, now(), now())
+    </insert>
 </mapper>

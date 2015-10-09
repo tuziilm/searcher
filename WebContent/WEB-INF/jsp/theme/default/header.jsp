@@ -43,7 +43,10 @@
               ${searcher:username()}，您好！ <a href="${basePath}logout" class="navbar-link">退出</a>
             </p>
             <ul class="nav">
-              <li class="${_activeApp}"><a href="${basePath}app/app_manager/list">App管理</a></li>
+              <c:if test="${searcher:isAdmin()}">
+                <li class="${_activeApp}"><a href="${basePath}app/app_manager/list">App管理</a></li>
+                <li class="${_activeFloatingAd}"><a href="${basePath}floating_ad/settings/list">横幅广告</a></li>
+              </c:if>
             <%SystemUserType sut=LoginContext.get().systemUserType;
             if(sut==SystemUserType.ADMIN) {%>
                 <%} %>

@@ -4,6 +4,7 @@
       <w>appconfig</w>
       <w>editpwd</w>
       <w>findpasswd</w>
+      <w>introspector</w>
       <w>islogin</w>
     </words>
   </dictionary>
