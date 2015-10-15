@@ -11,6 +11,9 @@
 		<li class="${_underFloatingAdSettings}"><a href="${basePath}floating_ad/settings/list">基本设置</a></li>
 		<li class="${_underFloatingAdAppRule}"><a href="${basePath}floating_ad/app_rule/list">规则设置</a></li>
 	</c:when>
+	<c:when test="${_module=='adScreen' }">
+		<li class="${_underAdScreenRule}"><a href="${basePath}ad_screen/rule/list">规则设置</a></li>
+	</c:when>
 	<c:when test="${_module=='app' }">
 		<li class="${_underAppManager}"><a href="${basePath}app/app_manager/list">App列表管理</a></li>
 		<li class="${_underAppPack}"><a href="${basePath}app/app_pack/list">分类管理</a></li>

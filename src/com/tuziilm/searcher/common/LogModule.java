@@ -15,6 +15,7 @@ public enum LogModule {
     USER_DEFINED("添加用户自定义", "index/userDefined"),
     USER_ISLOGIN("用户是否登陆", "index/isLogin"),
     FLOATING_AD_GET_APP_RULE("悬浮广告统计", "get/get_ad"),
+    AD_SCREEN_RULE("插屏广告规则", "user/ad_screen"),
     PUSH_REGISTER("Push用户信息", "user/register"),
     APP_CONFIG("分类列表", "index/appconfig");
 

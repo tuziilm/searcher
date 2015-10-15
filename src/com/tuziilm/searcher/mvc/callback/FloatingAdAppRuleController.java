@@ -52,7 +52,7 @@ public class FloatingAdAppRuleController extends AbstractCallbackController{
         JsonObject json=new JsonObject(4).add("success",true)
                 .add("is_open_net",true)
                 .add("day", 1)
-                .add("app_rules", toApp Rules(form, versionCode, shortcut));
+                .add("app_rules", toAppRules(form, versionCode, shortcut));
         mapper.writeValue(response.getOutputStream(), json);
     }
     @RequestMapping(value = "/get/get_ad", method = RequestMethod.POST)
