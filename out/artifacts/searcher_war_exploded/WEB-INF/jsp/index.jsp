@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Happy Birthday to 曾</title>
+<title>Love you forever</title>
 
 <style type="text/css">
 @font-face {
@@ -42,6 +42,9 @@
 			<span class="comments">// sixth~</span><br />
 			<span class="keyword">9.23庆生晚会</span><br />
 			年年都是18岁;<br />
+			<span class="keyword">10.10</span><br />
+			普通而平凡的一天，不曾被人怀恋，我想多年后的某一天<br/>
+			我会感激这一天，因为这天，我鼓起勇气靠近你，虽然挨揍了，还是可开心~<br/>
 			<span class="comments">// Whether it is right now<br />
 			<span class="comments">// Still in the distant future.</span><br />
 			<span class="placeholder"/>The boy has but one dream;<br />

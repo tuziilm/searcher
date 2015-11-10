@@ -46,7 +46,7 @@
 									<ul>
 										<li><strong>app：</strong>
 										<c:forEach var="appId" items="${data.appIdsObject}" varStatus="vs">
-											<span><c:if test="${not vs.first}">,</c:if>${appMap[appId].name}</span>
+											<span><c:if test="${not vs.first and appMap[appId]!=null }">,</c:if>${appMap[appId].name}</span>
 										</c:forEach></li>
 										<li>
 											<strong>国家：</strong>

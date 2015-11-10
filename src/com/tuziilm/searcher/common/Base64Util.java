@@ -291,7 +291,6 @@ public class Base64Util {
 	}
 
 	public static void main(String[] args) {
-		//��½
 //		String code = encode("{\"opcode\":\"1001\",\"opdata\":{\"pwd\":\"test\",\"user\":\"test\"}}");
 		String code = encode("{\"opcode\":\"1001\",\"opdata\":{\"uid\":\"1\",\"appid\":\"\",\"token\":\"A86CB1682825729776682D9744890D38\",\"link\":\"www.baidu.com\",\"name\":\"我的百度\"}}");
 //		String code = "";
