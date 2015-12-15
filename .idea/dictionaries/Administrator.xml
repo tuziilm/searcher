@@ -2,6 +2,7 @@
   <dictionary name="Administrator">
     <words>
       <w>appconfig</w>
+      <w>autoplay</w>
       <w>editpwd</w>
       <w>findpasswd</w>
       <w>introspector</w>
