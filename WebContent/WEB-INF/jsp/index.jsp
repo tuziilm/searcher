@@ -77,7 +77,7 @@ var offsetY = $("#loveHeart").height() / 2 - 55;
 var together = new Date();
 //together.setUTCFullYear(2015, 8, 23);
 together.setFullYear(2015, 8, 23);
-together.setHours(19);
+together.setHours(0);
 together.setMinutes(0);
 together.setSeconds(0);
 together.setMilliseconds(0);

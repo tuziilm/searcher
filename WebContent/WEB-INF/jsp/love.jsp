@@ -20,8 +20,8 @@
   </style>
   <script type="text/javascript">bye_a_d('.adsbygoogle,.fdad,.inner > .add');</script><script language="javascript" type="text/javascript" src="${basePath}static/love/adbyebye.js" charset="gb2312"></script></head>
 <body>
-<audio autoplay="autoplay">
-  <source src="${basePath}static/love/See You Again.mp3" type="audio/mp3" />
+<audio  id="music" preload="none">
+  <source src="http://7xp889.com1.z0.glb.clouddn.com/See%20You%20Again.mp3" type="audio/mp3" />
 </audio>
 <div id="main">
   <div id="error">本页面采用HTML5编辑，目前您的浏览器无法显示，请换成谷歌(<a href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)或者火狐(<a href="http://firefox.com.cn/download/">Firefox</a>)浏览器，或者其他游览器的最新版本。</div>
@@ -43,7 +43,7 @@
           <span class="say"> </span><br>
           <span class="say"> 我已经缺席了你的前二十年，我不想错过你未来的日子</span><br>
           <span class="say"> </span><br>
-          <span class="say"> 给我一次机会让我来爱你，我们在一起吧</span><br>
+          <span class="say"> 我们在一起吧，让你的生活以后每天都有我</span><br>
           <span class="say"> </span><br>
           <span class="say"><span class="space"></span> -- 喜欢你的兔子哥哥--</span>
         </font></p>
@@ -63,6 +63,14 @@
 </script>
 
 <script>
+  function playMusic(){
+    var audio = document.getElementById('music');
+    audio.play();
+    var onEnded = function() {
+      this.play();
+    };
+    audio.addEventListener('ended', onEnded, false);
+  }
   (function(){
     var canvas = $('#canvas');
 
@@ -116,6 +124,7 @@
     var hold = 1;
 
     canvas.click(function(e) {
+      playMusic();
       var offset = canvas.offset(), x, y;
       x = e.pageX - offset.left;
       y = e.pageY - offset.top;
@@ -190,7 +199,7 @@
 
     var textAnimate = eval(Jscex.compile("async", function () {
       var together = new Date();
-      together.setFullYear(2015,8,28); 			//时间年月日
+      together.setFullYear(2015,8,23); 			//时间年月日
       together.setHours(0);						//小时
       together.setMinutes(0);					//分钟
       together.setSeconds(0);					//秒前一位

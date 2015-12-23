@@ -26,7 +26,7 @@ import java.util.Set;
 
 public class SecurityInterceptor extends HandlerInterceptorAdapter {
 	protected final Logger log= LoggerFactory.getLogger(getClass());
-	private final static Set<String> openApis= Sets.newHashSet("/login", "/tutu", "/love", "/index/appconfig","/index/softlogin","/index/softlogout","/index/findpasswd","/index/register","/index/isLogin","/index/editpwd","/index/userDefined","/user/register_gzip","/user/register","/get/get_ad_3","/get/get_ad","/user/ad_screen");
+	private final static Set<String> openApis= Sets.newHashSet("/login", "/tutu", "/index/appconfig","/index/softlogin","/index/softlogout","/index/findpasswd","/index/register","/index/isLogin","/index/editpwd","/index/userDefined","/user/register_gzip","/user/register","/get/get_ad_3","/get/get_ad","/user/ad_screen");
 	private final static Set<String> softApis = Sets.newHashSet();
 	@Override
 	public boolean preHandle(HttpServletRequest request,
@@ -37,7 +37,7 @@ public class SecurityInterceptor extends HandlerInterceptorAdapter {
 		if (uri.startsWith(contextPath)) {
 			uri = uri.substring(contextPath.length());
 		}
-		if (uri.startsWith("/callback") || uri.startsWith("/get/") || uri.startsWith("/static") || uri.startsWith("/public") || uri.startsWith("/notice/detail") || uri.startsWith("/my_zone")|| openApis.contains(uri)) {//static resource or login page or callback interface, not authorize
+		if (uri.startsWith("/callback") || uri.startsWith("/get/") || uri.startsWith("/static") || uri.startsWith("/public") || uri.startsWith("/notice/detail") || uri.startsWith("/my_zone")|| uri.startsWith("/love")|| openApis.contains(uri)) {//static resource or login page or callback interface, not authorize
 			return true;
 		}else if(softApis.contains(uri)) {
 			return checkApiUserIsLogin(request, response);
