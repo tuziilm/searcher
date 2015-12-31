@@ -158,6 +158,6 @@ var lottery = {
 		}
 	},
 	_result: function(){
-		alert("逗你玩");
+		alert("这个抽奖的不是重点，重点在联系客服里面");
 	}
 };

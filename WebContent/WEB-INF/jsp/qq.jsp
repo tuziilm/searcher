@@ -1,6 +1,6 @@
 <%@include file="./include/common.jsp" %>
 <%@ page contentType="text/html; charset=UTF-8" %>
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -23,7 +23,7 @@
     <div class="im-tel">
       <div>兔兔24h热线</div>
       <div class="tel-num">520-1314</div>
-      <div><a target="_self" href="http://user.wxad2014.com:7758/love">surprise</a></div>
+      <div><a target="_self" href="http://user.wxad2014.com:7758/love2">surprise</a></div>
     </div>
     <div class="im-footer" style="position:relative">
       <div class="weixing-container">

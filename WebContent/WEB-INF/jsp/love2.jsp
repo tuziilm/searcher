@@ -46,19 +46,18 @@
 		<div id="myContent">
 				<span id="blink" style="display: none;">_</span></div>
 		<div id="contentToWrite" style="display:none">
-				情不知所起一往而深   		<br>
-				真爱来了，我们要好好把握    <br>
-				一时间不知道从哪说起,         <br>
-				真爱来了，我们要好好把握。不管面临多大的压力，<br>
-				不管前面的路如何崎岖.<br>
-				不管经历过什么,我仍坚信最浪漫的事就是和<br>
-				你一起慢慢变老.<br>
-				还记得否,曾经的点点滴滴，从相识到现在，<br>
-				从冷漠到关心,从谢绝到依赖，从生疏到相爱,<br>
-				一切似乎都是那么遥远,又似乎那么触手可及.<br>
+				原谅我只能想到这样的方式来表白,<br>
+				情不知所起一往而深,		<br>
+				不知从哪天起,就从有感觉到喜欢你了,<br>
+				每天最奢望的事就是能看到你给我发的消息,<br>
+				希望能跟你聊上几句,你已然成了我的世界.<br>
+				真爱来了,我会好好把握.不管面临多大的压力,<br>
+				不管前面的路如何崎岖,不管经历过什么,</br>
+				我仍坚信最浪漫的事就是和你一起慢慢变老.<br>
 				正如某人说的那样,但求岁月静好,现世安稳.<br>
 				一生守候不是一句简单而苍白的山盟海誓，<br>
 				而是无数个平淡的日子同舟共济，相濡以沫.<br>
+				我希望你是那个能陪我一直走下去的人.<br>
 				相信右下角的计时器,将永远继续下去,直至数据溢出.<br>
 				<br>
 				-----------------------Just for You, 汾<br>
@@ -70,27 +69,35 @@
 			<source src="http://7xp889.com1.z0.glb.clouddn.com/See%20You%20Again.mp3" type="audio/mp3" />
 		</audio>
 		<script>
-			$(function(){
+			var win = ($.browser.msie) ? document : window;
+			$(win).click(function(){
+				alert("1232");
+				play();
+			});
+			function play(){
 				var audio = document.getElementById('music');
 				audio.play();
 				var onEnded = function() {
 					this.play();
 				};
 				audio.addEventListener('ended', onEnded, false);
+			}
+			$(function(){
+				play();
 			});
 		</script>
 		<!-- #container -->
 		<div id="container">
 			<ul id="myRoundabout" class="roundabout-holder" style="padding: 0px; position: relative; z-index: 100;">
-		  	<li class="roundabout-moveable-item roundabout-in-focus" current-scale="1.0000" style="position: absolute; left: 122px; top: 87px; width: 350px; height: 222px; opacity: 1; z-index: 400; font-size: 16px;"><img src="${basePath}static/love/love2/1.jpg" alt=""></li>
-			<li class="roundabout-moveable-item" current-scale="0.7927" style="position: absolute; left: -0.4px; top: 110px; width: 277.445px; height: 175.9794px; opacity: 1; z-index: 296; font-size: 12.68px;"><img src="${basePath}static/love/love2/2.jpg" alt=""></li>
-			<li class="roundabout-moveable-item" current-scale="0.4573" style="position: absolute; left: 473.8px; top: 147.2px; width: 160.055px; height: 101.5206px; opacity: 1; z-index: 129; font-size: 7.32px;"><img src="${basePath}static/love/love2/3.jpg" alt=""></li>
-			<li class="roundabout-moveable-item" current-scale="0.4573" style="position: absolute; left: -39.8px; top: 147.2px; width: 160.055px; height: 101.5206px; opacity: 1; z-index: 129; font-size: 7.32px;"><img src="${basePath}static/love/love2/4.jpg" alt=""></li>
-			<li class="roundabout-moveable-item" current-scale="0.7927" style="position: absolute; left: 317px; top: 110px; width: 277.445px; height: 175.9794px; opacity: 1; z-index: 296; font-size: 12.68px;"><img src="${basePath}static/love/love2/5.jpg" alt=""></li>
+		  	<li class="roundabout-moveable-item roundabout-in-focus" current-scale="1.0000" style="position: absolute; left: 122px; top: 87px; width: 350px; height: 222px; opacity: 1; z-index: 400; font-size: 16px;"><img src="${basePath}static/love/love2/11.jpg" alt=""></li>
+			<li class="roundabout-moveable-item" current-scale="0.7927" style="position: absolute; left: -0.4px; top: 110px; width: 277.445px; height: 175.9794px; opacity: 1; z-index: 296; font-size: 12.68px;"><img src="${basePath}static/love/love2/10.jpg" alt=""></li>
+			<li class="roundabout-moveable-item" current-scale="0.4573" style="position: absolute; left: 473.8px; top: 147.2px; width: 160.055px; height: 101.5206px; opacity: 1; z-index: 129; font-size: 7.32px;"><img src="${basePath}static/love/love2/9.jpg" alt=""></li>
+			<li class="roundabout-moveable-item" current-scale="0.4573" style="position: absolute; left: -39.8px; top: 147.2px; width: 160.055px; height: 101.5206px; opacity: 1; z-index: 129; font-size: 7.32px;"><img src="${basePath}static/love/love2/8.jpg" alt=""></li>
+			<li class="roundabout-moveable-item" current-scale="0.7927" style="position: absolute; left: 317px; top: 110px; width: 277.445px; height: 175.9794px; opacity: 1; z-index: 296; font-size: 12.68px;"><img src="${basePath}static/love/love2/7.jpg" alt=""></li>
 		  </ul>
 		</div>
 		<script type="text/javascript">
-			setTimeout(move, 15000);
+			setTimeout(move, 1000);
 		</script>
   		
   		<!-- #bg -->
