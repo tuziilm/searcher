@@ -1,9 +1,9 @@
 
 /* Global properties ======================================================== */
-body { 
-	/*background:#6f599c;*/
+body {
+	/*background:#6f599c;
+	background-repeat:no-repeat;*/
 	background-image:url('./6.jpg');
-	background-repeat:no-repeat;
 	background-size:100% 100%;
 	text-align:left;
 }

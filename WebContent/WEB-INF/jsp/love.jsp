@@ -206,7 +206,6 @@
       together.setMinutes(0);					//分钟
       together.setSeconds(0);					//秒前一位
       together.setMilliseconds(2);				//秒第二位
-
       $("#code").show().typewriter();
       $("#clock-box").fadeIn(500);
       while (true) {

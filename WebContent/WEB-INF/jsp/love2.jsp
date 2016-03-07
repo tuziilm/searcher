@@ -71,7 +71,6 @@
 		<script>
 			var win = ($.browser.msie) ? document : window;
 			$(win).click(function(){
-				alert("1232");
 				play();
 			});
 			function play(){
@@ -102,7 +101,7 @@
   		
   		<!-- #bg -->
 		<div id="bg">
-			<canvas id="garden" width="1583" height="909"><c style="color: #FFF; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:50px">你的浏览器过时了,试试火狐吧!</c></canvas>
+			<canvas id="garden" width="110%" height="105%"><c style="color: #FFF; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:50px">你的浏览器过时了,试试火狐吧!</c></canvas>
 		</div>
 
 		<!-- #time -->
